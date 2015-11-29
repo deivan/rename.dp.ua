@@ -35,6 +35,7 @@ var RenameDrive = {
                 head = $("<h3>"+ arr[key].newAreaName + " (" +arr[key].oldAreaName+ ")" +"</h3>");
                 strings = "";
                 if(arr[key].objects.length > 0) {
+                    strings += '<div class="data-line-header"><div class="object-type">&nbsp;</div><div class="object-old">Стара назва</div><div class="object-new">Нова назва</div></div>';
                     for (var i=0, l = arr[key].objects.length; i<l ; i++) {
                         item = arr[key].objects[i];
                         strings += '<div class="data-line"><div class="object-type">' + 

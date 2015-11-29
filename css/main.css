@@ -205,7 +205,7 @@ article {
     padding: 10px 20px;
 }
 
-article p.alert {
+p.alert {
     padding: 15px;
     color: #f00;
     background-color: #ffcccc;
@@ -213,13 +213,18 @@ article p.alert {
     border-radius: 10px;
 }
 
-div.data-line {
+div.data-line, div.data-line-header {
     float: left;
     width: 100%;
     height: 30px;
     line-height: 30px;
     font-size: 16px;
     position: relative;
+}
+
+div.data-line-header {
+    background-color: #eee;
+    font-weight: bold;
 }
 
 div.object-type {
@@ -233,4 +238,10 @@ div.object-old, div.object-new {
     float: left;
     width: 300px;
     height: 100%;
+}
+
+p.footer {
+    text-align: center;
+    font-size:12px;
+    color: #333;
 }
