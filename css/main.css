@@ -205,6 +205,14 @@ article {
     padding: 10px 20px;
 }
 
+article p.alert {
+    padding: 15px;
+    color: #f00;
+    background-color: #ffcccc;
+    border:1px solid #f00;
+    border-radius: 10px;
+}
+
 div.data-line {
     float: left;
     width: 100%;
