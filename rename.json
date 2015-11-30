@@ -10,6 +10,16 @@
                 },
                 {
                     "type": "street", 
+                    "oldName": "Білостоцького",
+                    "newName": "Любарського"
+                },
+                {
+                    "type": "lane", 
+                    "oldName": "Білостоцького",
+                    "newName": "Любарського"
+                },
+                {
+                    "type": "street", 
                     "oldName": "Варейкіса",
                     "newName": "Джузеппе Гарібальді"
                 },
@@ -24,9 +34,9 @@
                     "newName": "Мануйлівський"
                 },
                 {
-                    "type": "avenue", 
-                    "oldName": "ім. газети 'Правда'",
-                    "newName": "Слобожанський"
+                    "type": "area", 
+                    "oldName": "Воронцовський",
+                    "newName": "Мануйлівський"
                 },
                 {
                     "type": "street", 
@@ -79,9 +89,34 @@
                     "newName": "Глухівська"
                 },
                 {
+                    "type": "avenue", 
+                    "oldName": "ім. газети 'Правда'",
+                    "newName": "Слобожанський"
+                },
+                {
+                    "type": "street", 
+                    "oldName": "Івана Зінукова",
+                    "newName": "Портова"
+                },
+                {
+                    "type": "lane", 
+                    "oldName": "Івана Зінукова",
+                    "newName": "Портовий"
+                },
+                {
                     "type": "street", 
                     "oldName": "Іскри",
                     "newName": "Піскова"
+                },
+                {
+                    "type": "lake", 
+                    "oldName": "ім. Кірова",
+                    "newName": "Затишна"
+                },
+                {
+                    "type": "park", 
+                    "oldName": "ім. Кірова",
+                    "newName": "Кирилівка"
                 },
                 {
                     "type": "street", 
@@ -185,6 +220,11 @@
                 },
                 {
                     "type": "street", 
+                    "oldName": "Моріса Торсза",
+                    "newName": "Березанівська"
+                },
+                {
+                    "type": "street", 
                     "oldName": "Набережна Чудновського",
                     "newName": "Набережна Старосамарська"
                 },
@@ -197,6 +237,11 @@
                     "type": "street", 
                     "oldName": "Пархоменка",
                     "newName": "Григорія Граб’янки"
+                },
+                {
+                    "type": "street", 
+                    "oldName": "Пелагеї Поляхової",
+                    "newName": "Лебединська"
                 },
                 {
                     "type": "street", 
@@ -237,6 +282,16 @@
                     "type": "street", 
                     "oldName": "Стаханівців",
                     "newName": "Івана Сокульского"
+                },
+                {
+                    "type": "area", 
+                    "oldName": "Фрунзснський-1",
+                    "newName": "Ломівський"
+                },
+                {
+                    "type": "area", 
+                    "oldName": "Фрунзснський-2",
+                    "newName": "Кам’янський"
                 },
                 {
                     "type": "lane", 

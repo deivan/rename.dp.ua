@@ -12,7 +12,8 @@ var RenameDrive = {
         "embankment": "набережна",
         "park":       "парк",
         "slope":      "узвіз",
-        "area":       "житловий масив"
+        "area":       "житловий масив",
+        "lake":       "затока"
     },
     data: {},
       
