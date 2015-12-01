@@ -4,16 +4,19 @@ window.onload  = function() {
 
 var RenameDrive = {
     types: {
-        "street":     "вулиця",
-        "lane":       "провулок",
-        "avenue":     "проспект",
-        "impasse":    "тупик",
-        "square":     "площа",
-        "embankment": "набережна",
-        "park":       "парк",
-        "slope":      "узвіз",
-        "area":       "житловий масив",
-        "lake":       "затока"
+        street:     "вулиця",
+        lane:       "провулок",
+        avenue:     "проспект",
+        impasse:    "тупик",
+        square:     "площа",
+        embankment: "набережна",
+        park:       "парк, сквер",
+        slope:      "узвіз",
+        area:       "житловий масив",
+        lake:       "затока",
+        island:     "острів",
+        station:    "станція"
+        
     },
     data: {},
       

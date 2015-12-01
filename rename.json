@@ -327,6 +327,11 @@
             "objects": [
                 {
                     "type": "street", 
+                    "oldName": "ХХІІ партз’зду",
+                    "newName": "Вознесенська"
+                },
+                {
+                    "type": "street", 
                     "oldName": "40 років комсомолу",
                     "newName": "Антіна Синявського"
                 },
@@ -349,6 +354,11 @@
                     "type": "street", 
                     "oldName": "Володарського",
                     "newName": "Олександра Кониського"
+                },
+                {
+                    "type": "street", 
+                    "oldName": "Героїв Сталінграда",
+                    "newName": "Богдана Хмельницького"
                 },
                 {
                     "type": "street", 
@@ -538,8 +548,8 @@
                 },
                 {
                     "type": "street", 
-                    "oldName": "Боженка",
-                    "newName": "Хортицька"
+                    "oldName": "Баумана",
+                    "newName": "Павла Нірінберга"
                 },
                 {
                     "type": "street", 
@@ -562,6 +572,11 @@
                     "newName": "Гетьмана Петра Дорошенка"
                 },
                 {
+                    "type": "square", 
+                    "oldName": "Дем’яна Бєдного",
+                    "newName": "Успенська"
+                },
+                {
                     "type": "street", 
                     "oldName": "Дзержинського",
                     "newName": "Володимира Вернадського"
@@ -577,6 +592,11 @@
                     "newName": "Івана Старова"
                 },
                 {
+                    "type": "square", 
+                    "oldName": "Жовтнева",
+                    "newName": "Соборна"
+                },
+                {
                     "type": "street", 
                     "oldName": "Жуковського",
                     "newName": "Василя Жуковського"
@@ -590,6 +610,11 @@
                     "type": "lane", 
                     "oldName": "Колгоспний",
                     "newName": "Лоцманів Казанців"
+                },
+                {
+                    "type": "island", 
+                    "oldName": "Комсомольський",
+                    "newName": "Монастирський"
                 },
                 {
                     "type": "street", 
@@ -618,13 +643,28 @@
                 },
                 {
                     "type": "street", 
+                    "oldName": "Погребняка",
+                    "newName": "Полігонна"
+                },
+                {
+                    "type": "street", 
                     "oldName": "Радянський",
                     "newName": "Феодосія Макаревського"
                 },
                 {
                     "type": "street", 
+                    "oldName": "Рогальова",
+                    "newName": "Крутогірний"
+                },
+                {
+                    "type": "street", 
                     "oldName": "Рози Люксембург",
                     "newName": "Марії Заньковецької"
+                },
+                {
+                    "type": "slope", 
+                    "oldName": "Тольятті",
+                    "newName": "Кодацький"
                 },
                 {
                     "type": "lane", 
@@ -655,6 +695,16 @@
                     "type": "street", 
                     "oldName": "Червоноповстанська балка",
                     "newName": "Довга балка"
+                },
+                {
+                    "type": "street", 
+                    "oldName": "Чекистів",
+                    "newName": "Переможна"
+                },
+                {
+                    "type": "street", 
+                    "oldName": "Чубаря",
+                    "newName": "Володимира Сосюри"
                 }
             ]
         },
@@ -668,9 +718,24 @@
                     "newName": "Ізмаїла Срезневського"
                 },
                 {
+                    "type": "street", 
+                    "oldName": "Винокурова",
+                    "newName": "Дніпросталівська"
+                },
+                {
                     "type": "avenue", 
                     "oldName": "ім. Газети Правда",
                     "newName": "Слобожанський"
+                },
+                {
+                    "type": "park", 
+                    "oldName": "ім. Воронцова",
+                    "newName": "Сагайдак"
+                },
+                {
+                    "type": "area", 
+                    "oldName": "КІМа",
+                    "newName": "Мелитопольска"
                 },
                 {
                     "type": "area", 
@@ -710,6 +775,11 @@
             "objects": [
                 {
                     "type": "street", 
+                    "oldName": "ХХІІ партз’зду",
+                    "newName": "Вознесенська"
+                },
+                {
+                    "type": "street", 
                     "oldName": "55 років ВЛКСМ",
                     "newName": "Пластівська"
                 },
@@ -725,8 +795,18 @@
                 },
                 {
                     "type": "street", 
+                    "oldName": "Вакуленчука",
+                    "newName": "Леоніда Стромцова"
+                },
+                {
+                    "type": "street", 
                     "oldName": "Войцеховіча",
                     "newName": "Миколи Руденка"
+                },
+                {
+                    "type": "street", 
+                    "oldName": "Героїв Сталінграда",
+                    "newName": "Богдана Хмельницького"
                 },
                 {
                     "type": "street", 
@@ -734,9 +814,19 @@
                     "newName": "Княгині Ольги"
                 },
                 {
+                    "type": "square", 
+                    "oldName": "Горького",
+                    "newName": "Половицька"
+                },
+                {
                     "type": "street", 
                     "oldName": "Димитрова",
                     "newName": "Михайла Драгоманова"
+                },
+                {
+                    "type": "park", 
+                    "oldName": "ім.Леніна",
+                    "newName": "Героїв"
                 },
                 {
                     "type": "street", 
@@ -870,6 +960,16 @@
                     "newName": "Івана Езау"
                 },
                 {
+                    "type": "street", 
+                    "oldName": "Вахрушева",
+                    "newName": "Василя Сидоренка"
+                },
+                {
+                    "type": "street", 
+                    "oldName": "Героїв Сталінграда",
+                    "newName": "Богдана Хмельницького"
+                },
+                {
                     "type": "lane", 
                     "oldName": "Ілліча",
                     "newName": "Орлика"
@@ -883,6 +983,11 @@
                     "type": "slope", 
                     "oldName": "Калініна",
                     "newName": "Ярмарковий"
+                },
+                {
+                    "type": "park", 
+                    "oldName": "ім. Калініна",
+                    "newName": "Пам’яті та Примирення"
                 },
                 {
                     "type": "street", 
@@ -981,6 +1086,11 @@
                     "newName": "Данила Сахненка"
                 },
                 {
+                    "type": "street", 
+                    "oldName": "Боженка",
+                    "newName": "Хортицька"
+                },
+                {
                     "type": "lane", 
                     "oldName": "Братів Трофімових",
                     "newName": "Діївський"
@@ -989,6 +1099,16 @@
                     "type": "street", 
                     "oldName": "Братів Трофімових",
                     "newName": "Велика Діївська"
+                },
+                {
+                    "type": "street", 
+                    "oldName": "Братів Каменських",
+                    "newName": "Зернова"
+                },
+                {
+                    "type": "street", 
+                    "oldName": "Братів Ковальчуків",
+                    "newName": "Байдаківська"
                 },
                 {
                     "type": "street", 
@@ -1006,19 +1126,9 @@
                     "newName": "Гулака-Артемовського"
                 },
                 {
-                    "type": "street", 
-                    "oldName": "Боженка",
-                    "newName": "Хортицька"
-                },
-                {
                     "type": "lane", 
                     "oldName": "Войцеховський",
                     "newName": "Швидкісний"
-                },
-                {
-                    "type": "street", 
-                    "oldName": "Боженка",
-                    "newName": "Хортицька"
                 },
                 {
                     "type": "street", 
@@ -1031,6 +1141,11 @@
                     "newName": "Новокодацька"
                 },
                 {
+                    "type": "street", 
+                    "oldName": "Дзержинського (Таромське)",
+                    "newName": "Коханівська"
+                },
+                {
                     "type": "lane", 
                     "oldName": "Дзержинського (Таромське)",
                     "newName": "Зоряний"
@@ -1041,6 +1156,11 @@
                     "newName": "Хотинська"
                 },
                 {
+                    "type": "street", 
+                    "oldName": "Димитрова (Таромське)",
+                    "newName": "Хизовська"
+                },
+                {
                     "type": "lane", 
                     "oldName": "Єрмака",
                     "newName": "Кленовий"
@@ -1049,6 +1169,16 @@
                     "type": "street", 
                     "oldName": "Жовтенят",
                     "newName": "Фортечна"
+                },
+                {
+                    "type": "street", 
+                    "oldName": "Жовтенева (Таромське)",
+                    "newName": "Золотоосіння"
+                },
+                {
+                    "type": "lane", 
+                    "oldName": "Жовтеневий (Таромське)",
+                    "newName": "Золотоосінній"
                 },
                 {
                     "type": "street", 
@@ -1066,9 +1196,19 @@
                     "newName": "Майстрів"
                 },
                 {
+                    "type": "park", 
+                    "oldName": "ім. Леніна",
+                    "newName": "Новокодацький"
+                },
+                {
                     "type": "street", 
                     "oldName": "Карпуші",
                     "newName": "Єлагінська"
+                },
+                {
+                    "type": "street", 
+                    "oldName": "Квірінга",
+                    "newName": "Бельгійська"
                 },
                 {
                     "type": "street", 
@@ -1081,14 +1221,29 @@
                     "newName": "Мальвова"
                 },
                 {
+                    "type": "lane", 
+                    "oldName": "Кірова (Таромське)",
+                    "newName": "Назарія Яремчука"
+                },
+                {
                     "type": "street", 
                     "oldName": "Кірова",
                     "newName": "Старий шлях"
                 },
                 {
                     "type": "street", 
+                    "oldName": "Колгоспна",
+                    "newName": "Фермерська"
+                },
+                {
+                    "type": "street", 
                     "oldName": "Коллонтай",
                     "newName": "Ганни Барвінок"
+                },
+                {
+                    "type": "street", 
+                    "oldName": "Комбідівська (Таромське)",
+                    "newName": "Василя Хитя"
                 },
                 {
                     "type": "street", 
@@ -1111,6 +1266,11 @@
                     "newName": "Айдарівська"
                 },
                 {
+                    "type": "lane", 
+                    "oldName": "Комсомольський (Таромське)",
+                    "newName": "Дібровська"
+                },
+                {
                     "type": "area", 
                     "oldName": "Комунар",
                     "newName": "Покровський"
@@ -1119,6 +1279,11 @@
                     "type": "street", 
                     "oldName": "Комунарівська",
                     "newName": "Юрія Кондратюка"
+                },
+                {
+                    "type": "station", 
+                    "oldName": "Комунарівська",
+                    "newName": "Покровська"
                 },
                 {
                     "type": "street", 
@@ -1149,6 +1314,11 @@
                     "type": "street", 
                     "oldName": "Курочкіна",
                     "newName": "Семена Бардадима"
+                },
+                {
+                    "type": "street", 
+                    "oldName": "Леніна (Таромське)",
+                    "newName": "Генерала Воливача"
                 },
                 {
                     "type": "street", 
@@ -1214,6 +1384,11 @@
                     "type": "street", 
                     "oldName": "Павла Корчагіна",
                     "newName": "Миколи Куліша"
+                },
+                {
+                    "type": "street", 
+                    "oldName": "Петра Сиротиніна",
+                    "newName": "Лавандова"
                 },
                 {
                     "type": "avenue", 
@@ -1287,6 +1462,11 @@
                 },
                 {
                     "type": "street", 
+                    "oldName": "Союзна",
+                    "newName": "Старобазарна"
+                },
+                {
+                    "type": "street", 
                     "oldName": "Суханова",
                     "newName": "Станіслава Оріховського"
                 },
@@ -1297,8 +1477,28 @@
                 },
                 {
                     "type": "lane", 
+                    "oldName": "Тельмана (Таромське)",
+                    "newName": "Івана Сохача"
+                },
+                {
+                    "type": "street", 
+                    "oldName": "Тихона Бондарева",
+                    "newName": "Карпатська"
+                },
+                {
+                    "type": "street", 
+                    "oldName": "Ульяновська (Таромське)",
+                    "newName": "Михайла Лояна"
+                },
+                {
+                    "type": "lane", 
                     "oldName": "Фрунзе (Таромське)",
                     "newName": "Заборинська"
+                },
+                {
+                    "type": "street", 
+                    "oldName": "Фрунзе (Таромське)",
+                    "newName": "Сержанта Андрющенка"
                 },
                 {
                     "type": "street", 
@@ -1332,6 +1532,11 @@
                 },
                 {
                     "type": "street", 
+                    "oldName": "Щорса (Таромське)",
+                    "newName": "Данили Будницького"
+                },
+                {
+                    "type": "street", 
                     "oldName": "Яшина",
                     "newName": "Володимира Самодриги"
                 }
@@ -1357,9 +1562,24 @@
                     "newName": "В’язовий"
                 },
                 {
+                    "type": "lane", 
+                    "oldName": "Бакуніна",
+                    "newName": "Ігренський"
+                },
+                {
+                    "type": "street", 
+                    "oldName": "Барбюса",
+                    "newName": "Євгена Сердюкова"
+                },
+                {
                     "type": "street", 
                     "oldName": "Булата",
                     "newName": "Люблянська"
+                },
+                {
+                    "type": "street", 
+                    "oldName": "Ворошиловградська",
+                    "newName": "Пшенична"
                 },
                 {
                     "type": "street", 
@@ -1410,6 +1630,11 @@
                     "type": "lane", 
                     "oldName": "Маршала Жукова",
                     "newName": "Героїчний"
+                },
+                {
+                    "type": "street", 
+                    "oldName": "Постишева",
+                    "newName": "Олександра Серебрякова"
                 },
                 {
                     "type": "street", 
