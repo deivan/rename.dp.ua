@@ -296,7 +296,7 @@
                 {
                     "type": "lane", 
                     "oldName": "Цюрюпинський",
-                    "newName": "Весняних коновалій"
+                    "newName": "Весняних конвалій"
                 },
                 {
                     "type": "street", 
@@ -716,7 +716,7 @@
                 {
                     "type": "square", 
                     "oldName": "80-річчя Дніпропетровській області",
-                    "newName": "Козаціка"
+                    "newName": "Козацька"
                 },
                 {
                     "type": "street", 
@@ -746,7 +746,7 @@
                 {
                     "type": "street", 
                     "oldName": "Комсомольська",
-                    "newName": "Старокозаціка"
+                    "newName": "Старокозацька"
                 },
                 {
                     "type": "street", 
@@ -1076,11 +1076,6 @@
                     "newName": "Деревлянська"
                 },
                 {
-                    "type": "street", 
-                    "oldName": "Івана Сусаніна",
-                    "newName": "Майстрів"
-                },
-                {
                     "type": "lane", 
                     "oldName": "Кірова (Таромське)",
                     "newName": "Мальвова"
@@ -1112,11 +1107,6 @@
                 },
                 {
                     "type": "street", 
-                    "oldName": "Карпуші",
-                    "newName": "Єлагінська"
-                },
-                {
-                    "type": "street", 
                     "oldName": "Комсомольська (Таромське)",
                     "newName": "Айдарівська"
                 },
@@ -1129,11 +1119,6 @@
                     "type": "street", 
                     "oldName": "Комунарівська",
                     "newName": "Юрія Кондратюка"
-                },
-                {
-                    "type": "street", 
-                    "oldName": "Карпуші",
-                    "newName": "Єлагінська"
                 },
                 {
                     "type": "street", 
@@ -1157,18 +1142,8 @@
                 },
                 {
                     "type": "street", 
-                    "oldName": "Карпуші",
-                    "newName": "Єлагінська"
-                },
-                {
-                    "type": "street", 
                     "oldName": "Круаської",
                     "newName": "Баллінська"
-                },
-                {
-                    "type": "street", 
-                    "oldName": "Карпуші",
-                    "newName": "Єлагінська"
                 },
                 {
                     "type": "street", 
