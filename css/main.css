@@ -245,10 +245,19 @@ div.object-type {
     text-align: center;
 }
 
-div.object-old, div.object-new {
+div.object-old, div.object-new, div.object-link {
     float: left;
     width: 300px;
     height: 100%;
+}
+
+div.object-new {
+    width: 280px;
+}
+
+div.object-link {
+    width: 75px;
+    text-align: center;
 }
 
 p.footer {
