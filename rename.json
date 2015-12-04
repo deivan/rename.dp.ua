@@ -953,7 +953,11 @@
                 {
                     "type": "street", 
                     "oldName": "Бабушкіна",
-                    "newName": "Романа Шухевича"
+                    "newName": "Романа Шухевича",
+                    "link": {
+                        "href": "https://uk.wikipedia.org/wiki/%D0%A8%D1%83%D1%85%D0%B5%D0%B2%D0%B8%D1%87_%D0%A0%D0%BE%D0%BC%D0%B0%D0%BD_%D0%9E%D1%81%D0%B8%D0%BF%D0%BE%D0%B2%D0%B8%D1%87",
+                        "type": 0
+                    }
                 },
                 {
                     "type": "street", 
@@ -1078,7 +1082,11 @@
                 {
                     "type": "street", 
                     "oldName": "ХІХ партз'їзду",
-                    "newName": "Івана Гонти"
+                    "newName": "Івана Гонти",
+                    "link": {
+                        "href": "https://uk.wikipedia.org/wiki/%D0%86%D0%B2%D0%B0%D0%BD_%D2%90%D0%BE%D0%BD%D1%82%D0%B0",
+                        "type": 0
+                    }
                 },
                 {
                     "type": "street", 
@@ -1088,7 +1096,11 @@
                 {
                     "type": "street", 
                     "oldName": "Аврори",
-                    "newName": "Трифона Гладченка"
+                    "newName": "Трифона Гладченка",
+                    "link": {
+                        "href": "http://www.gorod.dp.ua/tema/persons/?pageid=1842",
+                        "type": 0
+                    }
                 },
                 {
                     "type": "street", 

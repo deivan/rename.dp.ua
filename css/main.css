@@ -183,6 +183,7 @@ textarea {
 
 body {
     background-color: #bbb;
+    font-family: Arial, arial, sans-serif;
 }
 
 div.container {
@@ -256,12 +257,17 @@ div.object-new {
 }
 
 div.object-link {
-    width: 75px;
+    width: 85px;
     text-align: center;
+    word-wrap: break-word;
 }
 
 p.footer {
     text-align: center;
     font-size:12px;
     color: #333;
+}
+
+p.bolded {
+    font-weight: bold;
 }
