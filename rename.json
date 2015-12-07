@@ -454,12 +454,20 @@
                 {
                     "type": "area", 
                     "oldName": "Фрунзенський-1",
-                    "newName": "Ломівський"
+                    "newName": "Ломівський",
+                    "link": {
+                        "href": "https://uk.wikipedia.org/wiki/%D0%9B%D0%BE%D0%BC%D1%96%D0%B2%D0%BA%D0%B0",
+                        "type": 2
+                    }
                 },
                 {
                     "type": "area", 
                     "oldName": "Фрунзенський-2",
-                    "newName": "Кам’янський"
+                    "newName": "Кам’янський",
+                    "link": {
+                        "href": "https://uk.wikipedia.org/wiki/%D0%9A%D0%B0%D0%BC'%D1%8F%D0%BD%D0%BA%D0%B0_%28%D0%94%D0%BD%D1%96%D0%BF%D1%80%D0%BE%D0%BF%D0%B5%D1%82%D1%80%D0%BE%D0%B2%D1%81%D1%8C%D0%BA%29",
+                        "type": 2
+                    }
                 },
                 {
                     "type": "lane", 
@@ -671,7 +679,7 @@
                 },
                 {
                     "type": "street", 
-                    "oldName": "Мануїдьского",
+                    "oldName": "Мануїльского",
                     "newName": "Михайла Максимовича",
                     "link": {
                         "href": "https://uk.wikipedia.org/wiki/%D0%9C%D0%B0%D0%BA%D1%81%D0%B8%D0%BC%D0%BE%D0%B2%D0%B8%D1%87_%D0%9C%D0%B8%D1%85%D0%B0%D0%B9%D0%BB%D0%BE_%D0%9E%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%BE%D0%B2%D0%B8%D1%87",
@@ -704,7 +712,11 @@
                 {
                     "type": "street", 
                     "oldName": "Пеліна",
-                    "newName": "Катерини Мессарош"
+                    "newName": "Катерини Мессарош",
+                    "link": {
+                        "href": "http://zorya.org.ua/istoriya/zrikalas-zatishku-y-komfortu-6043.html",
+                        "type": 0
+                    }
                 },
                 {
                     "type": "street", 
@@ -986,7 +998,11 @@
                 {
                     "type": "lane", 
                     "oldName": "Колгоспний",
-                    "newName": "Лоцманів Казанців"
+                    "newName": "Лоцманів Казанців",
+                    "link": {
+                        "href": "http://www.radiosvoboda.org/content/article/25008389.html",
+                        "type": 3
+                    }
                 },
                 {
                     "type": "island", 
@@ -1023,7 +1039,11 @@
                 {
                     "type": "street", 
                     "oldName": "МОПРа",
-                    "newName": "Григорія Омельченка"
+                    "newName": "Григорія Омельченка",
+                    "link": {
+                        "href": "https://uk.wikipedia.org/wiki/%D0%9E%D0%BC%D0%B5%D0%BB%D1%8C%D1%87%D0%B5%D0%BD%D0%BA%D0%BE_%D0%93%D1%80%D0%B8%D0%B3%D0%BE%D1%80%D1%96%D0%B9_%D0%9C%D0%B8%D0%BA%D0%B8%D1%82%D0%BE%D0%B2%D0%B8%D1%87",
+                        "type": 0
+                    }
                 },
                 {
                     "type": "street", 
@@ -1265,7 +1285,11 @@
                 {
                     "type": "street", 
                     "oldName": "Вакуленчука",
-                    "newName": "Леоніда Стромцова"
+                    "newName": "Леоніда Стромцова",
+                    "link": {
+                        "href": "http://www.otv.ua/%D0%B4%D0%BE%D1%81%D0%BA%D0%B0-%D0%BF%D0%B0%D0%BC%D1%8F%D1%82%D0%B8-%D0%BB%D0%B5%D0%BE%D0%BD%D0%B8%D0%B4%D0%B0-%D1%81%D1%82%D1%80%D0%BE%D0%BC%D1%86%D0%BE%D0%B2%D0%B0.html",
+                        "type": 0
+                    }
                 },
                 {
                     "type": "street", 
@@ -1599,7 +1623,11 @@
                 {
                     "type": "street", 
                     "oldName": "Красночечелівська",
-                    "newName": "Олександра Чернікова"
+                    "newName": "Олександра Чернікова",
+                    "link": {
+                        "href": "http://hvylya.net/news/digest/pod-donetskim-aeroportom-pogib-zhurnalist-aleksandr-chernikov.html",
+                        "type": 0
+                    }
                 },
                 {
                     "type": "street", 
@@ -1773,7 +1801,11 @@
                 {
                     "type": "street", 
                     "oldName": "Братів Ковальчуків",
-                    "newName": "Байдаківська"
+                    "newName": "Байдаківська",
+                    "link": {
+                        "href": "https://uk.wikipedia.org/wiki/%D0%91%D0%B0%D0%B9%D0%B4%D0%B0%D0%BA%D1%96%D0%B2%D1%81%D1%8C%D0%BA%D0%B0_%D0%B2%D0%BE%D0%BB%D0%BE%D1%81%D1%82%D1%8C",
+                        "type": 2
+                    }
                 },
                 {
                     "type": "street", 
@@ -1960,7 +1992,11 @@
                 {
                     "type": "street", 
                     "oldName": "Комбідівська (Таромське)",
-                    "newName": "Василя Хитя"
+                    "newName": "Василя Хитя",
+                    "link": {
+                        "href": "http://dv-gazeta.info/old/4/v-aprele-1945-go.html",
+                        "type": 0
+                    }
                 },
                 {
                     "type": "street", 
@@ -2062,12 +2098,20 @@
                 {
                     "type": "street", 
                     "oldName": "Курочкіна",
-                    "newName": "Семена Бардадима"
+                    "newName": "Семена Бардадима",
+                    "link": {
+                        "href": "https://hghltd.yandex.net/yandbtm?fmode=inject&url=http%3A%2F%2Fwww.ukrainica.org.ua%2Fen%2Fcomponent%2Fcontent%2Farticle%2F41-index%2F191%2F242-242&tld=ua&lang=ru&la=1427147136&tm=1449473375&text=%D0%A1%D0%B5%D0%BC%D0%B5%D0%BD%20%D0%91%D0%B0%D1%80%D0%B4%D0%B0%D0%B4%D0%B8%D0%BC&l10n=ru&mime=html&sign=534e5edc8e1935059b685e7629e33421&keyno=0",
+                        "type": 0
+                    }
                 },
                 {
                     "type": "street", 
                     "oldName": "Леніна (Таромське)",
-                    "newName": "Генерала Воливача"
+                    "newName": "Генерала Воливача",
+                    "link": {
+                        "href": "http://dv-gazeta.info/dneprnews/imya-ivana-volivacha-prisvoili-skveru.html",
+                        "type": 0
+                    }
                 },
                 {
                     "type": "street", 
@@ -2158,12 +2202,20 @@
                 {
                     "type": "street", 
                     "oldName": "Островського (Таромське)",
-                    "newName": "Миколи Зерова"
+                    "newName": "Миколи Зерова",
+                    "link": {
+                        "href": "https://uk.wikipedia.org/wiki/%D0%97%D0%B5%D1%80%D0%BE%D0%B2_%D0%9C%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0_%D0%9A%D0%BE%D1%81%D1%82%D1%8F%D0%BD%D1%82%D0%B8%D0%BD%D0%BE%D0%B2%D0%B8%D1%87",
+                        "type": 0
+                    }
                 },
                 {
                     "type": "lane", 
                     "oldName": "Островського (Таромське)",
-                    "newName": "Миколи Зерова"
+                    "newName": "Миколи Зерова",
+                    "link": {
+                        "href": "https://uk.wikipedia.org/wiki/%D0%97%D0%B5%D1%80%D0%BE%D0%B2_%D0%9C%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0_%D0%9A%D0%BE%D1%81%D1%82%D1%8F%D0%BD%D1%82%D0%B8%D0%BD%D0%BE%D0%B2%D0%B8%D1%87",
+                        "type": 0
+                    }
                 },
                 {
                     "type": "street", 
@@ -2299,7 +2351,11 @@
                 {
                     "type": "lane", 
                     "oldName": "Тельмана (Таромське)",
-                    "newName": "Івана Сохача"
+                    "newName": "Івана Сохача",
+                    "link": {
+                        "href": "https://uk.wikipedia.org/wiki/%D0%A1%D1%83%D1%85%D0%B0%D1%87%D1%96%D0%B2%D0%BA%D0%B0#%D0%97%D0%B0%D1%81%D0%BD%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F",
+                        "type": 0
+                    }
                 },
                 {
                     "type": "street", 
@@ -2360,14 +2416,18 @@
                 {
                     "type": "street", 
                     "oldName": "Шелгунова",
-                    "newName": "Максима Дія"
+                    "newName": "Максима Дія",
+                    "link": {
+                        "href": "https://www.gorod.dp.ua/history/isc/event_ru.php?event=32",
+                        "type": 0
+                    }
                 },
                 {
                     "type": "street", 
                     "oldName": "Щаденка",
                     "newName": "Марії Грінченко",
                     "link": {
-                        "href": "https://uk.wikipedia.org/wiki/%D0%A1%D0%B0%D0%BC%D0%BE%D0%B4%D1%80%D0%B8%D0%B3%D0%B0_%D0%92%D0%BE%D0%BB%D0%BE%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%92%D0%B0%D1%81%D0%B8%D0%BB%D1%8C%D0%BE%D0%B2%D0%B8%D1%87",
+                        "href": "https://uk.wikipedia.org/wiki/%D0%93%D1%80%D1%96%D0%BD%D1%87%D0%B5%D0%BD%D0%BA%D0%BE_%D0%9C%D0%B0%D1%80%D1%96%D1%8F_%D0%9C%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D1%97%D0%B2%D0%BD%D0%B0",
                         "type": 0
                     }
                 },
