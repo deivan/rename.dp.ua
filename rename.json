@@ -998,7 +998,11 @@
                 {
                     "type": "lane", 
                     "oldName": "Колгоспний",
-                    "newName": "Лоцманів Казанців"
+                    "newName": "Лоцманів Казанців",
+                    "link": {
+                        "href": "http://www.radiosvoboda.org/content/article/25008389.html",
+                        "type": 3
+                    }
                 },
                 {
                     "type": "island", 
@@ -1035,7 +1039,11 @@
                 {
                     "type": "street", 
                     "oldName": "МОПРа",
-                    "newName": "Григорія Омельченка"
+                    "newName": "Григорія Омельченка",
+                    "link": {
+                        "href": "https://uk.wikipedia.org/wiki/%D0%9E%D0%BC%D0%B5%D0%BB%D1%8C%D1%87%D0%B5%D0%BD%D0%BA%D0%BE_%D0%93%D1%80%D0%B8%D0%B3%D0%BE%D1%80%D1%96%D0%B9_%D0%9C%D0%B8%D0%BA%D0%B8%D1%82%D0%BE%D0%B2%D0%B8%D1%87",
+                        "type": 0
+                    }
                 },
                 {
                     "type": "street", 
