@@ -1,5 +1,20 @@
-window.onload  = function() {
+window.onload  = function() 
+{
+    var keyPressed = false;
     RenameDrive.render();
+    $(window).keydown(function (e) { 
+        if(!keyPressed) {
+            RenameDrive.findClick();
+            keyPressed = true;
+        }
+    }).keyup(function () {
+            // keep time for show line value
+            if(keyPressed) {
+                setTimeout(function(){
+                    keyPressed = false;
+                },200);
+            }
+        });
 };
 
 var RenameDrive = {
@@ -72,9 +87,7 @@ var RenameDrive = {
             });
             
         $('.find-icon').on('click', function() {
-            var pattern = $('.find-input').val().trim().toLowerCase();
-            if(pattern.length < 3) return;
-            self.find(pattern);
+            self.findClick();
         });
         
         $(".find-close-icon").on('click', function() {
@@ -83,6 +96,12 @@ var RenameDrive = {
             $('.find-input').val("")
         });
         
+    },
+    
+    findClick: function() {
+        var pattern = $('.find-input').val().trim().toLowerCase();
+        if(pattern.length < 3) return;
+        this.find(pattern);
     },
     
     find: function (pattern) {
@@ -108,8 +127,10 @@ var RenameDrive = {
                 }
             }
         }
+        if(results == '') results = "<span style=\"color:#800;\">По запросу <strong>"+ pattern +"</strong> не нашлось результатов...</span>";
         $(".find-results").html(results).removeClass("hidden");
         $(".find-close-icon").removeClass("hidden");
+        $(".find-input").val("")
     },
     
     makeSimilar: function(pattern) {
