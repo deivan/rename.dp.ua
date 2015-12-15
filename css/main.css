@@ -360,3 +360,11 @@ div.find-results {
     font-weight: bold;
     color: #060;
 }
+
+div.footer-counters {
+    width: 100%;
+    height: 90px;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+}

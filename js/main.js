@@ -3,9 +3,9 @@ window.onload  = function()
     var keyPressed = false;
     RenameDrive.render();
     $(window).keydown(function (e) { 
-        if(!keyPressed) {
+        if(e.keyCode == 13 && !keyPressed) {
             RenameDrive.findClick();
-            keyPressed = true;
+            keyPressed = true;            
         }
     }).keyup(function () {
             // keep time for show line value
