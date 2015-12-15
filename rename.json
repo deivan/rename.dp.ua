@@ -352,7 +352,7 @@
                     }
                 },
                 {
-                    "type": "street", 
+                    "type": "embankment", 
                     "oldName": "Набережна Чудновського",
                     "newName": "Набережна Старосамарська",
                     "link": {
@@ -1046,7 +1046,7 @@
                     }
                 },
                 {
-                    "type": "street", 
+                    "type": "embankment", 
                     "oldName": "ім. В.І. Леніна",
                     "newName": "Січеславська Набережна"
                 },
@@ -1392,7 +1392,7 @@
                     }
                 },
                 {
-                    "type": "street", 
+                    "type": "embankment", 
                     "oldName": "набережна ім. В.І. Леніна",
                     "newName": "Січеславська Набережна"
                 },
