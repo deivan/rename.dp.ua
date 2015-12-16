@@ -76,6 +76,10 @@ var RenameDrive = {
                 active: false,
                 heightStyle: "content"
             });
+            
+            setTimeout(function(){
+                $("#overlay").hide();
+            }, 500);
         });
         
         $('.find-input')

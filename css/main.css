@@ -368,3 +368,23 @@ div.footer-counters {
     margin: 0 auto;
     position: relative;
 }
+
+div.overlay {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,255,255,0.5);
+}
+
+div.overlay-text {
+    font-size: 5em;
+    position: relative;
+    margin: 20% auto;
+    color: #222;
+    text-align:  center;
+    animation-name: bitbit;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
