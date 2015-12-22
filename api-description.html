@@ -1,0 +1,133 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="ru"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Переименование улиц и мест Днепропетровска: описание API</title>
+        <meta name="description" content="Он-лайн справочник новых названий улиц, проспектов, площадей Днепропетровска 2015. Разбивка по районам">
+        <meta name="keywords" content="новые названия улиц Днепропетровск, новые названия улиц днепр, новые имена улиц Днепропетровск, переименование улиц, перечень новых названий улиц Днепропетровск, полный список названий, переименование улиц и площадей, распоряжение о переименовании улиц, слушания о переименовании, переименование и декоммунизация, полный список новых названий">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link type="image/x-icon" rel="shortcut icon" href="favicon.ico">
+        <link rel="apple-touch-icon" href="favicon.ico">
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <div class="container">
+            <div class="main-logotype">
+                <img src="img/cover.jpg" title="Picture created by Oleksiy Pyliov (C) 2015" alt="Picture created by Oleksiy Pyliov (C) 2015"/>
+            </div>
+            <div class="clearfix"></div>
+            <h3 class="main-header">Описание данных в формате JSON</h3>
+            <article>
+                <p>Данные в файле представлены в виде объекта:</p>
+                <p class="data-text">
+                    {<br>
+    &nbsp;&nbsp;"r61": {<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;    "oldAreaName": "Амур-Нижньодніпровський",<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;    "newAreaName": "Амур-Нижньодніпровський",<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;    "objects": [<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        {<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;            "type": "street", <br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;            "oldName": "Баглія",<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;            "newName": "Брацлавська",<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;            "link": {<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                "href": "https://uk.wikipedia.org/wiki/%D0%91%D1%80%D0%B0%D1%86%D0%BB%D0%B0%D0%B2",<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                "type": 2<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;            }<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        },<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        ...<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;    ]<br>
+    &nbsp;&nbsp;},<br>
+    &nbsp;&nbsp;"r62": {<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;        ...<br>
+    &nbsp;&nbsp;},<br>
+    &nbsp;&nbsp;...<br>
+    &nbsp;&nbsp;"r68": {<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;        ...<br>
+    &nbsp;&nbsp;}<br>
+} </p>
+                <p>Поля районов представлены ключами вида r61, r62, ... , r68 - таким образом кодируются районы в государственных статистических реестрах исполнительной власти. Нумерация алфавитная, это означает, что 61 - это АНД район, 62 - Бабушкинский, 68 - Самарский. Однако, в связи с изменением названий районов поменялся и их алфавитный порядок. Но! <strong>Я более чем уверен, что в органах установившийся порядок менять не будут!</strong> Скорее всего, нумерация останется старой, поменяют только названия. Ввиду этого я оставил такие поля для совместимости с базами органов исполнительной власти.</p>
+                <p>Каждый район - это объект с обязательными полями: <span class="data-text">oldAreaName</span> - старое название района, <span class="data-text">newAreaName</span> - новое название района, <span class="data-text">objects</span> - массив географических объектов, подвергшихся переименованию.</p>
+                <p>Каждый объект переименования имеет обязательные поля: <span class="data-text">type</span> - тип объекта (перечень ниже), <span class="data-text">oldName</span> - старое название объекта, <span class="data-text">newName</span> - новое название объекта, а также набор необязательных полей, таких как <span class="data-text">link</span>.</p>
+                <p>Типы объектов переименования имеют следующиие значения:<br> 
+                    <span class="data-text">street</span> - улица<br>                
+                    <span class="data-text">lane</span> - переулок<br>
+                    <span class="data-text">avenue</span> - проспект<br>
+                    <span class="data-text">impasse</span> - тупик<br>
+                    <span class="data-text">square</span> - площадь<br>
+                    <span class="data-text">embankment</span> - набережная<br>
+                    <span class="data-text">park</span> - парк, сквер<br>
+                    <span class="data-text">slope</span> - спуск<br>
+                    <span class="data-text">area</span> - жилмассив<br>
+                    <span class="data-text">lake</span> - залив<br>
+                    <span class="data-text">island</span> - остров<br>
+                    <span class="data-text">station</span> - станция<br>
+                </p>
+                <p>Поле <span class="data-text">link</span> описывает ссылку на субъекта переименования текущего объекта (иначе говоря, в честь кого или чего сделано переименование конкретной улицы или места). Это поле, в сою очередь имеет два обязательных поля: <span class="data-text">href</span> - ссылка на источник с информацией о субъекте и <span class="data-text">type</span> - тип субъекта, это целое число, значение которого соответствует:<br>
+                    <span class="data-text">0</span> - конкретная личность<br>
+                    <span class="data-text">1</span> - определенное историческое событие<br>
+                    <span class="data-text">2</span> - географический объект<br>
+                    <span class="data-text">3</span> - некоторая организация или сообщество, например - семья<br>
+                </p>
+                <p>На данный момент рассматриваются к внедрению дополнительные необязательные поля к объектам переименования, такие как флаг статуса возврата исторического название, смена типа объекта (была улица - стал проспект). Принимаются предложения по дополнительным полям, присоединяйтесь к разработке на странице <a href="about-us.html">О проекте</a></p>
+                <p>Прямая ссылка на файл с данными в формате JSON: <a href="rename.json">скачать...</a></p>
+            </article>
+            <article class="links-block">
+                <a href="index.html" class="page-navigator">На главную</a> | <a href="about-us.html" class="page-navigator">О проекте</a>
+            </article>
+            <hr>
+            <article>
+                <p class="footer">Хостинг предоставлен блистательно выгоднейшим хостинг-сервисом <a href="http://takprosto.biz.ua/">ТАК ПРОСТО</a></p>
+            </article>
+        </div>
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-70806154-1', 'auto');
+          ga('send', 'pageview');
+        </script>
+        <p style="text-align: center;">
+            <!-- I.UA counter --><a href="http://www.i.ua/" target="_blank" onclick="this.href='http://i.ua/r.php?199541';" title="Rated by I.UA">
+            <script type="text/javascript"><!--
+            iS='http'+(window.location.protocol=='https:'?'s':'')+
+            '://r.i.ua/s?u199541&p30&n'+Math.random();
+            iD=document;if(!iD.cookie)iD.cookie="b=b; path=/";if(iD.cookie)iS+='&c1';
+            iS+='&d'+(screen.colorDepth?screen.colorDepth:screen.pixelDepth)
+            +"&w"+screen.width+'&h'+screen.height;
+            iT=iR=iD.referrer.replace(iP=/^[a-z]*:\/\//,'');iH=window.location.href.replace(iP,'');
+            ((iI=iT.indexOf('/'))!=-1)?(iT=iT.substring(0,iI)):(iI=iT.length);
+            if(iT!=iH.substring(0,iI))iS+='&f'+escape(iR);
+            iS+='&r'+escape(iH);
+            iD.write('<img src="'+iS+'" border="0" width="88" height="31" />');
+            //--></script></a><!-- End of I.UA counter -->
+            <!--bigmir)net TOP 100-->
+            <script type="text/javascript" language="javascript"><!--
+            bmN=navigator,bmD=document,bmD.cookie='b=b',i=0,bs=[],bm={v:16943601,s:16943601,t:8,c:bmD.cookie?1:0,n:Math.round((Math.random()* 1000000)),w:0};
+            for(var f=self;f!=f.parent;f=f.parent)bm.w++;
+            try{if(bmN.plugins&&bmN.mimeTypes.length&&(x=bmN.plugins['Shockwave Flash']))bm.m=parseInt(x.description.replace(/([a-zA-Z]|\s)+/,''));
+            else for(var f=3;f<20;f++)if(eval('new ActiveXObject("ShockwaveFlash.ShockwaveFlash.'+f+'")'))bm.m=f}catch(e){;}
+            try{bm.y=bmN.javaEnabled()?1:0}catch(e){;}
+            try{bmS=screen;bm.v^=bm.d=bmS.colorDepth||bmS.pixelDepth;bm.v^=bm.r=bmS.width}catch(e){;}
+            r=bmD.referrer.replace(/^w+:\/\//,'');if(r&&r.split('/')[0]!=window.location.host){bm.f=escape(r).slice(0,400);bm.v^=r.length}
+            bm.v^=window.location.href.length;for(var x in bm) if(/^[vstcnwmydrf]$/.test(x)) bs[i++]=x+bm[x];
+            bmD.write('<a href="http://www.bigmir.net/" target="_blank" onClick="img=new Image();img.src="//www.bigmir.net/?cl=16943601";"><img src="//c.bigmir.net/?'+bs.join('&')+'"  width="88" height="31" border="0" alt="bigmir)net TOP 100" title="bigmir)net TOP 100"></a>');
+            //-->
+            </script>
+            <noscript>
+            <a href="http://www.bigmir.net/" target="_blank"><img src="//c.bigmir.net/?v16943601&s16943601&t8" width="88" height="31" alt="bigmir)net TOP 100" title="bigmir)net TOP 100" border="0" /></a>
+            </noscript>
+            <!--bigmir)net TOP 100-->
+        </p>
+    </body>
+</html>

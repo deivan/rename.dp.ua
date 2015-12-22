@@ -194,7 +194,7 @@ div.container {
     position:relative;
 }
 
-div.main-logotype {
+div.main-logotype, div.main-logotype img {
     float: left;
     width: 1024px;
     height: 515px;
@@ -202,7 +202,7 @@ div.main-logotype {
     position:relative;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    background-image: url(../img/cover.jpg);
+/*    background-image: url(../img/cover.jpg);*/
 }
 
 h3.main-header {
@@ -219,6 +219,11 @@ article {
     padding: 10px 20px;
 }
 
+article h4 {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #050;
+}
 p.alert {
     padding: 15px;
     color: #f00;
@@ -387,4 +392,24 @@ div.overlay-text {
     animation-name: bitbit;
     animation-duration: 1s;
     animation-iteration-count: infinite;
+}
+
+.links-block {
+    text-align:  center;
+}
+
+.links-block a {
+    margin: 5px 15px;
+    font-weight: bold;
+}
+
+.data-text {
+    font-family: courier, monospace;
+    font-size: 0.9em;
+    background-color: #fff;
+    color: #555;
+}
+
+.text-citate {
+    font-style: italic;
 }

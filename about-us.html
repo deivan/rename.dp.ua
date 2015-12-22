@@ -6,19 +6,15 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Переименование улиц и мест Днепропетровска</title>
+        <title>Переименование улиц и мест Днепропетровска: о проекте</title>
         <meta name="description" content="Он-лайн справочник новых названий улиц, проспектов, площадей Днепропетровска 2015. Разбивка по районам">
         <meta name="keywords" content="новые названия улиц Днепропетровск, новые названия улиц днепр, новые имена улиц Днепропетровск, переименование улиц, перечень новых названий улиц Днепропетровск, полный список названий, переименование улиц и площадей, распоряжение о переименовании улиц, слушания о переименовании, переименование и декоммунизация, полный список новых названий">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link type="image/x-icon" rel="shortcut icon" href="favicon.ico">
         <link rel="apple-touch-icon" href="favicon.ico">
         <link rel="stylesheet" href="css/normalize.min.css">
-        <link rel="stylesheet" href="js/jqueryui/css/base/jquery-ui.css">
-        <link rel="stylesheet" href="js/jqueryui/css/base/jquery.ui.accordion.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-        <script src="js/vendor/jquery-1.11.2.js"></script>
-        <script src="js/jqueryui/jquery-ui.js"></script>
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -29,36 +25,33 @@
                 <img src="img/cover.jpg" title="Picture created by Oleksiy Pyliov (C) 2015" alt="Picture created by Oleksiy Pyliov (C) 2015"/>
             </div>
             <div class="clearfix"></div>
-            <div id="page-main-content">
-                <h3 class="main-header">Список новых названий улиц, площадей, мест Днепропетровска по районам, полный перечень</h3>
-                <article>
-                    <p>Все названия на украинском языке согласно оригиналу распоряжения о переименовании. Если объект переименования расположен на территории двух и более районов - то он будет присутствовать в списке каждого района.</p>
-                    <p>Весь массив данных по переименованиям доступен для скачивания и свободного использования в формате JSON <a href="rename.json">по этой ссылке</a>.</p>
-                    <p>Ведутся работы по накоплению и выдаче здесь информации о лицах, в честь кого произведено переименование.</p>
-                    <p>Доступно приложение для Android: <a href="https://play.google.com/store/apps/details?id=ua.dp.rename.dniprostreets&utm_source=global_co&utm_medium=prtnr&utm_content=Mar2515&utm_campaign=PartBadge&pcampaignid=MKT-AC-global-none-all-co-pr-py-PartBadges-Oct1515-1"><img alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/images/apps/ru-play-badge.png" width="82" height="25"/></a></p>
-                    <div class="object-find">
-                        <div class="find-label">Поиск объекта по названию (желательно по-украински): </div>
-                        <input class="find-input" type="text" placeholder="Введите название не менее трех символов"/>
-                        <div class="find-icon"></div>
-                        <div class="find-close-icon hidden"></div>
-                        <div class="clearfix"></div>
-                        <div class="find-results hidden"></div>
-                    </div>
-                    <div class="clearfix"></div>
-                    <div id="rename-data"></div>
-                    <p>Также можно скачать буклет для печати всего списка переименований с красочными авторскими картинками от <a href="http://atomoxod.in.ua">Олексій Пильов</a>, в виде файла формата PDF <a href="Dnipro_Rename_Tables.pdf">по этой ссылке</a></p>
-                </article>  
-                <article class="links-block">
-                    <a href="api-description.html" class="page-navigator">Описание JSON API</a> | <a href="about-us.html" class="page-navigator">О проекте</a>
-                </article>
-            </div>
+            <h3 class="main-header">О проекте</h3>
+            <article>
+                <h4>Почему я это сделал?</h4>
+                <p>Переименование улиц и мест свалилось на нас, как снег на голову. Два распоряжения, с разницей в одну неделю, самое объемное - это 897-р от 26.11.2015 г. Причем во всех источниках - только скан-копии оного, о разбивке по районам и речи не велось. Это неудобно. Второй момент - кто все эти люди?.. Что мы о них знаем?.. Поскольку переименование - это результат достаточно долгой работы сборной комиссии, а также результат каких-то слушаний, то все эти лица каким-то образом заслужили быть в списке. Но давайте хотя бы с ними познакомимся поближе!</p>
+                <p>Так появилась идея собрать всю информацию в одном месте, с максимальной детализацией.</p>
+                <p>И самое главное - предоставить возможность всем желающим получить всю базу данных в открытом формате для любого дальнейшего использования.</p>
+                
+                <h4>Кто мы?</h4>
+                <p>Автор проекта - <a href="http://demenkov.dp.ua/">Иван Юрьевич ДЕМЕНКОВ</a>, коренной днепропетровец, патриот своего города. Собрал сайт за выходные и кинул клич через Фейсбук - нужна была помощь по наполнению данных и тестированию ошибок. Отозвалось несколько десятков очень разных человек. Некоторые, почему-то решили, что я несу какую-то персональную ответственность за принятие новых названий. Такие письма имели несколько нервный характер, например: <br>
+                    <span class="text-citate">"Да как вы смели обозвать улицу в честь какого-то Менахем Мендл Шнеерсона? Вы совсем там с ума посходили?.. Кто он вообще такой, этот ваш Шнеерсон???"</span><br>
+                    У меня хорошее чувство юмора, поэтому такие письма меня весьма веселили :)</p>
+                <p>Наш сайт заиграл красками, когда яркую и красочную картинку в шапку прислал замечательный человек - <a href="http://atomoxod.in.ua">Олексій Пильов</a>, он же создал запоминающийся <a href="Dnipro_Rename_Tables.pdf">PDF-список переименований</a></p>
+                <p>Огромную работу по наполнению данными и коррекции провел пользователь сети GitHub <a href="https://github.com/Postrediori">Postrediori</a></p>
+                <p>Первое <a href="https://play.google.com/store/apps/details?id=ua.dp.rename.dniprostreets">мобильное приложение под Андроид</a> запилил Den Drobiazko</p>
+                
+                <h4>Чем вы можете помочь проекту?</h4>
+                <p>Этот сервис создан днепропетровцами для днепропетровцев. Все безвозмездно. Если у вас есть силы и желание сделать наш проект еще лучше - то присоединяйтесь к нам <a href="https://github.com/deivan/rename.dp.ua">в сети разработчиков ГитХаб</a></p>
+                <p>Предложения, замечания и пожелания <a href="mailto:info@rename.dp.ua"> шлите вот сюда</a></p>
+            </article>
+            <article class="links-block">
+                <a href="index.html" class="page-navigator">На главную</a> | <a href="api-description.href" class="page-navigator">Описание API</a>
+            </article>
             <hr>
             <article>
                 <p class="footer">Хостинг предоставлен блистательно выгоднейшим хостинг-сервисом <a href="http://takprosto.biz.ua/">ТАК ПРОСТО</a></p>
             </article>
         </div>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
         <script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
           (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -100,8 +93,5 @@
             </noscript>
             <!--bigmir)net TOP 100-->
         </p>
-        <div class="overlay" id="overlay">
-            <div class="overlay-text">Loading...</div>
-        </div>
     </body>
-</html>
+</html>        
