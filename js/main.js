@@ -51,25 +51,27 @@ var RenameDrive = {
             self.data = d;
             arr = d;
             for(var key in arr) {
-                head = $("<h3>"+ arr[key].newAreaName + " (" +arr[key].oldAreaName+ ")" +"</h3>");
-                strings = "";
-                if(arr[key].objects.length > 0) {
-                    strings += '<div class="data-line-header"><div class="object-type">&nbsp;</div><div class="object-old">Стара назва</div><div class="object-new">Нова назва</div><div class="object-link">На честь</div></div>';
-                    for (var i=0, l = arr[key].objects.length; i<l ; i++) {
-                        item = arr[key].objects[i];
-                        link = item.link === undefined ? 
-                               "" : 
-                               '<a href="'+item.link.href+'">'+self.linkTypes[item.link.type]+'</a>';
-                        strings += '<div class="data-line"><div class="object-type">' + 
-                                self.types[item.type] + 
-                                '</div><div class="object-old">'+  item.oldName + 
-                                '</div><div class="object-new">'+  item.newName + 
-                                '</div><div class="object-link">'+ link +
-                                "</div></div>";
+                if(key != "lastUpdate") {
+                    head = $("<h3>"+ arr[key].newAreaName + " (" +arr[key].oldAreaName+ ")" +"</h3>");
+                    strings = "";
+                    if(arr[key].objects.length > 0) {
+                        strings += '<div class="data-line-header"><div class="object-type">&nbsp;</div><div class="object-old">Стара назва</div><div class="object-new">Нова назва</div><div class="object-link">На честь</div></div>';
+                        for (var i=0, l = arr[key].objects.length; i<l ; i++) {
+                            item = arr[key].objects[i];
+                            link = item.link === undefined ? 
+                                   "" : 
+                                   '<a href="'+item.link.href+'">'+self.linkTypes[item.link.type]+'</a>';
+                            strings += '<div class="data-line"><div class="object-type">' + 
+                                    self.types[item.type] + 
+                                    '</div><div class="object-old">'+  item.oldName + 
+                                    '</div><div class="object-new">'+  item.newName + 
+                                    '</div><div class="object-link">'+ link +
+                                    "</div></div>";
+                        }
                     }
+                    data = $("<div>" + strings + "</div>");
+                    core.append(head).append(data);
                 }
-                data = $("<div>" + strings + "</div>");
-                core.append(head).append(data);
             }
             $( "#rename-data" ).accordion({
                 collapsible: true,
