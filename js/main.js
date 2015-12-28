@@ -115,20 +115,22 @@ var RenameDrive = {
             findArray = this.makeSimilar(pattern);
 
         for (var key in this.data) {
-            obj = this.data[key].objects;
-            area = this.data[key].oldAreaName + " (" + this.data[key].newAreaName +")";
-            for(var i = 0, l = obj.length; i<l ; i++) {
-                for (var j=0, m=findArray.length; j<m ; j++) {
-                    if(obj[i].oldName.toLowerCase().indexOf(findArray[j]) !==-1 || 
-                       obj[i].newName.toLowerCase().indexOf(findArray[j]) !==-1 ) {
-                        results +=
-                            '<div class="find-result-header">'+ area +'</div>' +
-                            '<div class="data-line"><div class="result-label">По-старому: </div><div class="object-type">' + 
-                            self.types[obj[i].type] + 
-                            '</div><div class="object-old">'+  obj[i].oldName + 
-                            '</div><div class="result-label">По-новому: </div><div class="object-new">'+  obj[i].newName + 
-                            '</div></div>';
-                        break;
+            if(key != "lastUpdate") {
+                obj = this.data[key].objects;
+                area = this.data[key].oldAreaName + " (" + this.data[key].newAreaName +")";
+                for(var i = 0, l = obj.length; i<l ; i++) {
+                    for (var j=0, m=findArray.length; j<m ; j++) {
+                        if(obj[i].oldName.toLowerCase().indexOf(findArray[j]) !==-1 || 
+                           obj[i].newName.toLowerCase().indexOf(findArray[j]) !==-1 ) {
+                            results +=
+                                '<div class="find-result-header">'+ area +'</div>' +
+                                '<div class="data-line"><div class="result-label">По-старому: </div><div class="object-type">' + 
+                                self.types[obj[i].type] + 
+                                '</div><div class="object-old">'+  obj[i].oldName + 
+                                '</div><div class="result-label">По-новому: </div><div class="object-new">'+  obj[i].newName + 
+                                '</div></div>';
+                            break;
+                        }
                     }
                 }
             }
