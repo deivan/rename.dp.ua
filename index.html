@@ -24,13 +24,21 @@
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/ru_RU/sdk.js#xfbml=1&version=v2.5";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
         <div class="container">
             <div class="main-logotype">
                 <img src="img/cover.jpg" title="Picture created by Oleksiy Pyliov (C) 2015" alt="Picture created by Oleksiy Pyliov (C) 2015"/>
             </div>
             <div class="clearfix"></div>
             <div id="page-main-content">
-                <h3 class="main-header">Список новых названий улиц, площадей, мест Днепропетровска по районам, полный перечень</h3>
+                <h3 class="main-header">Новые названия улиц, площадей, мест Днепропетровска по районам, полный перечень</h3>
                 <article>
                     <p>Все названия на украинском языке согласно оригиналу распоряжения о переименовании. Если объект переименования расположен на территории двух и более районов - то он будет присутствовать в списке каждого района.</p>
                     <p>Весь массив данных по переименованиям доступен для скачивания и свободного использования в формате JSON <a href="rename.json">по этой ссылке</a>.</p>
@@ -50,6 +58,11 @@
                 </article>  
                 <article class="links-block">
                     <a href="api-description.html" class="page-navigator">Описание JSON API</a> | <a href="about-us.html" class="page-navigator">О проекте</a>
+                </article>
+                <article class="links-block">
+                    <div class="fb-share-button" data-href="http://rename.dp.ua/" data-layout="button_count"></div>&nbsp;&nbsp;
+                    <a href="https://twitter.com/share" class="twitter-share-button"{count} data-url="http://rename.dp.ua/">Tweet</a>
+                    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
                 </article>
             </div>
             <hr>
@@ -99,9 +112,38 @@
             <a href="http://www.bigmir.net/" target="_blank"><img src="//c.bigmir.net/?v16943601&s16943601&t8" width="88" height="31" alt="bigmir)net TOP 100" title="bigmir)net TOP 100" border="0" /></a>
             </noscript>
             <!--bigmir)net TOP 100-->
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter34516755 = new Ya.Metrika({
+                    id:34516755,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/34516755" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
         </p>
         <div class="overlay" id="overlay">
             <div class="overlay-text">Loading...</div>
         </div>
     </body>
+    
 </html>
