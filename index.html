@@ -24,6 +24,14 @@
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/ru_RU/sdk.js#xfbml=1&version=v2.5";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
         <div class="container">
             <div class="main-logotype">
                 <img src="img/cover.jpg" title="Picture created by Oleksiy Pyliov (C) 2015" alt="Picture created by Oleksiy Pyliov (C) 2015"/>
@@ -50,6 +58,11 @@
                 </article>  
                 <article class="links-block">
                     <a href="api-description.html" class="page-navigator">Описание JSON API</a> | <a href="about-us.html" class="page-navigator">О проекте</a>
+                </article>
+                <article class="links-block">
+                    <div class="fb-share-button" data-href="http://rename.dp.ua/" data-layout="button_count"></div>&nbsp;&nbsp;
+                    <a href="https://twitter.com/share" class="twitter-share-button"{count} data-url="http://rename.dp.ua/">Tweet</a>
+                    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
                 </article>
             </div>
             <hr>
