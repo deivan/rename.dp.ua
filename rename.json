@@ -2452,7 +2452,11 @@
             {
                 "type": "street", 
                 "oldName": "Фрунзе (Таромське)",
-                "newName": "Сержанта Андрющенка"
+                "newName": "Сержанта Андрющенка",
+                "link": {
+                    "href": "http://memorybook.org.ua/1/andrushenko.htm",
+                    "type": 0
+                }
             },
             {
                 "type": "street", 
