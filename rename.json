@@ -603,6 +603,7 @@
             },
             {
                 "type": "street", 
+                "newType": "avenue",
                 "oldName": "Героїв Сталінграда",
                 "newName": "Богдана Хмельницького",
                 "link": {
@@ -866,6 +867,7 @@
             },
             {
                 "type": "street", 
+                "newType": "avenue",
                 "oldName": "Чкалова",
                 "newName": "Святослава Хороброго",
                 "link": {
@@ -1093,7 +1095,8 @@
                 "newName": "Полігонна"
             },
             {
-                "type": "street", 
+                "type": "lane", 
+                "newType": "street",
                 "oldName": "Радянський",
                 "newName": "Феодосія Макаревського",
                 "link": {
@@ -1103,6 +1106,7 @@
             },
             {
                 "type": "street", 
+                "newType": "slope",
                 "oldName": "Рогальова",
                 "newName": "Крутогірний"
             },
@@ -1126,6 +1130,7 @@
             },
             {
                 "type": "lane", 
+                "newType": "street",
                 "oldName": "Урицького",
                 "newName": "Євгена Коновальця",
                 "link": {
@@ -1247,6 +1252,7 @@
             },
             {
                 "type": "street", 
+                "newType": "avenue",
                 "oldName": "Косіора",
                 "newName": "Петра Калнишевського",
                 "link": {
@@ -2002,12 +2008,14 @@
                 }
             },
             {
-                "type": "lane", 
+                "type": "impasse",
+                "newType": "street",
                 "oldName": "Кірова (Таромське)",
                 "newName": "Мальвова"
             },
             {
                 "type": "lane", 
+                "newType": "street",
                 "oldName": "Кірова (Таромське)",
                 "newName": "Назарія Яремчука",
                 "link": {
@@ -2081,6 +2089,7 @@
             },
             {
                 "type": "lane", 
+                "newType": "street",
                 "oldName": "Комсомольський (Таромське)",
                 "newName": "Дібровська"
             },
@@ -2203,6 +2212,7 @@
             },
             {
                 "type": "lane", 
+                "newType": "street",
                 "oldName": "Людмили Сталь",
                 "newName": "Шодуарівська",
                 "link": {
@@ -2362,7 +2372,8 @@
                 }
             },
             {
-                "type": "street", 
+                "type": "lane", 
+                "newType": "street",
                 "oldName": "Свердлова (Таромське)",
                 "newName": "Казкова"
             },
@@ -2419,6 +2430,7 @@
             },
             {
                 "type": "lane", 
+                "newType": "street",
                 "oldName": "Тельмана (Таромське)",
                 "newName": "Івана Сохача",
                 "link": {
@@ -2446,6 +2458,7 @@
             },
             {
                 "type": "lane", 
+                "newType": "street",
                 "oldName": "Фрунзе (Таромське)",
                 "newName": "Заборинська"
             },
