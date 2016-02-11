@@ -1,5 +1,5 @@
 {
-    "lastUpdate": 1453050960000,
+    "lastUpdate": 1455139800000,
     "r61": {
         "oldAreaName": "Амур-Нижньодніпровський",
         "newAreaName": "Амур-Нижньодніпровський",
@@ -183,7 +183,8 @@
             {
                 "type": "street", 
                 "oldName": "Іскри",
-                "newName": "Піскова"
+                "newName": "Піскова",
+                "restored": true
             },
             {
                 "type": "lake", 
@@ -193,7 +194,8 @@
             {
                 "type": "park", 
                 "oldName": "ім. Кірова",
-                "newName": "Кирилівка"
+                "newName": "Кирилівка",
+                "restored": true
             },
             {
                 "type": "street", 
@@ -414,7 +416,8 @@
             {
                 "type": "street", 
                 "oldName": "Пелагеї Поляхової",
-                "newName": "Лебединська"
+                "newName": "Лебединська",
+                "restored": true
             },
             {
                 "type": "street", 
@@ -554,7 +557,8 @@
             {
                 "type": "street", 
                 "oldName": "ХХІІ партз’зду",
-                "newName": "Вознесенська"
+                "newName": "Вознесенська",
+                "restored": true
             },
             {
                 "type": "street", 
@@ -603,6 +607,7 @@
             },
             {
                 "type": "street", 
+                "newType": "avenue",
                 "oldName": "Героїв Сталінграда",
                 "newName": "Богдана Хмельницького",
                 "link": {
@@ -832,6 +837,7 @@
                 "type": "square", 
                 "oldName": "Червона",
                 "newName": "Троїцька",
+                "restored": true,
                 "link": {
                     "href": "https://ru.wikipedia.org/wiki/%D0%A1%D0%B2%D1%8F%D1%82%D0%BE-%D0%A2%D1%80%D0%BE%D0%B8%D1%86%D0%BA%D0%B8%D0%B9_%D1%81%D0%BE%D0%B1%D0%BE%D1%80_%28%D0%94%D0%BD%D0%B5%D0%BF%D1%80%D0%BE%D0%BF%D0%B5%D1%82%D1%80%D0%BE%D0%B2%D1%81%D0%BA%29",
                     "type": 2
@@ -841,6 +847,7 @@
                 "type": "street", 
                 "oldName": "Червона",
                 "newName": "Троїцька",
+                "restored": true,
                 "link": {
                     "href": "https://ru.wikipedia.org/wiki/%D0%A1%D0%B2%D1%8F%D1%82%D0%BE-%D0%A2%D1%80%D0%BE%D0%B8%D1%86%D0%BA%D0%B8%D0%B9_%D1%81%D0%BE%D0%B1%D0%BE%D1%80_%28%D0%94%D0%BD%D0%B5%D0%BF%D1%80%D0%BE%D0%BF%D0%B5%D1%82%D1%80%D0%BE%D0%B2%D1%81%D0%BA%29",
                     "type": 2
@@ -866,6 +873,7 @@
             },
             {
                 "type": "street", 
+                "newType": "avenue",
                 "oldName": "Чкалова",
                 "newName": "Святослава Хороброго",
                 "link": {
@@ -1018,6 +1026,7 @@
                 "type": "street", 
                 "oldName": "Жуковського",
                 "newName": "Василя Жуковського",
+                "restored": true,
                 "link": {
                     "href": "https://uk.wikipedia.org/wiki/%D0%96%D1%83%D0%BA%D0%BE%D0%B2%D1%81%D1%8C%D0%BA%D0%B8%D0%B9_%D0%92%D0%B0%D1%81%D0%B8%D0%BB%D1%8C_%D0%90%D0%BD%D0%B4%D1%80%D1%96%D0%B9%D0%BE%D0%B2%D0%B8%D1%87",
                     "type": 0
@@ -1044,7 +1053,8 @@
             {
                 "type": "island", 
                 "oldName": "Комсомольський",
-                "newName": "Монастирський"
+                "newName": "Монастирський",
+                "restored": true
             },
             {
                 "type": "street", 
@@ -1090,10 +1100,12 @@
             {
                 "type": "street", 
                 "oldName": "Погребняка",
-                "newName": "Полігонна"
+                "newName": "Полігонна",
+                "restored": true
             },
             {
-                "type": "street", 
+                "type": "lane", 
+                "newType": "street",
                 "oldName": "Радянський",
                 "newName": "Феодосія Макаревського",
                 "link": {
@@ -1103,8 +1115,10 @@
             },
             {
                 "type": "street", 
+                "newType": "slope",
                 "oldName": "Рогальова",
-                "newName": "Крутогірний"
+                "newName": "Крутогірний",
+                "restored": true
             },
             {
                 "type": "street", 
@@ -1126,6 +1140,7 @@
             },
             {
                 "type": "lane", 
+                "newType": "street",
                 "oldName": "Урицького",
                 "newName": "Євгена Коновальця",
                 "link": {
@@ -1168,12 +1183,14 @@
             {
                 "type": "street", 
                 "oldName": "Червоноповстанська балка",
-                "newName": "Довга балка"
+                "newName": "Довга балка",
+                "restored": true
             },
             {
                 "type": "street", 
                 "oldName": "Чекистів",
-                "newName": "Переможна"
+                "newName": "Переможна",
+                "restored": true
             },
             {
                 "type": "street", 
@@ -1220,7 +1237,8 @@
             {
                 "type": "park", 
                 "oldName": "ім. Воронцова",
-                "newName": "Сагайдак"
+                "newName": "Сагайдак",
+                "restored": true
             },
             {
                 "type": "area", 
@@ -1247,6 +1265,7 @@
             },
             {
                 "type": "street", 
+                "newType": "avenue",
                 "oldName": "Косіора",
                 "newName": "Петра Калнишевського",
                 "link": {
@@ -1290,7 +1309,8 @@
             {
                 "type": "street", 
                 "oldName": "ХХІІ партз’зду",
-                "newName": "Вознесенська"
+                "newName": "Вознесенська",
+                "restored": true
             },
             {
                 "type": "street", 
@@ -1545,6 +1565,7 @@
                 "type": "street", 
                 "oldName": "Щорса",
                 "newName": "Костомарівська",
+                "restored": true,
                 "link": {
                     "href": "https://uk.wikipedia.org/wiki/%D0%9A%D0%BE%D1%81%D1%82%D0%BE%D0%BC%D0%B0%D1%80%D0%BE%D0%B2_%D0%9C%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0_%D0%86%D0%B2%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%87",
                     "type": 0
@@ -1709,7 +1730,8 @@
             {
                 "type": "street", 
                 "oldName": "П’ятирічки",
-                "newName": "Шляхівська"
+                "newName": "Шляхівська",
+                "restored": true
             },
             {
                 "type": "street", 
@@ -1837,12 +1859,14 @@
             {
                 "type": "street", 
                 "oldName": "Братів Каменських",
-                "newName": "Зернова"
+                "newName": "Зернова",
+                "restored": true
             },
             {
                 "type": "street", 
                 "oldName": "Братів Ковальчуків",
                 "newName": "Байдаківська",
+                "restored": true,
                 "link": {
                     "href": "https://uk.wikipedia.org/wiki/%D0%91%D0%B0%D0%B9%D0%B4%D0%B0%D0%BA%D1%96%D0%B2%D1%81%D1%8C%D0%BA%D0%B0_%D0%B2%D0%BE%D0%BB%D0%BE%D1%81%D1%82%D1%8C",
                     "type": 2
@@ -2002,12 +2026,14 @@
                 }
             },
             {
-                "type": "lane", 
+                "type": "impasse",
+                "newType": "street",
                 "oldName": "Кірова (Таромське)",
                 "newName": "Мальвова"
             },
             {
                 "type": "lane", 
+                "newType": "street",
                 "oldName": "Кірова (Таромське)",
                 "newName": "Назарія Яремчука",
                 "link": {
@@ -2018,7 +2044,8 @@
             {
                 "type": "street", 
                 "oldName": "Кірова",
-                "newName": "Старий шлях"
+                "newName": "Старий шлях",
+                "restored": true
             },
             {
                 "type": "street", 
@@ -2081,8 +2108,10 @@
             },
             {
                 "type": "lane", 
+                "newType": "street",
                 "oldName": "Комсомольський (Таромське)",
-                "newName": "Дібровська"
+                "newName": "Дібровська",
+                "restored": true
             },
             {
                 "type": "area", 
@@ -2203,6 +2232,7 @@
             },
             {
                 "type": "lane", 
+                "newType": "street",
                 "oldName": "Людмили Сталь",
                 "newName": "Шодуарівська",
                 "link": {
@@ -2362,7 +2392,8 @@
                 }
             },
             {
-                "type": "street", 
+                "type": "lane", 
+                "newType": "street",
                 "oldName": "Свердлова (Таромське)",
                 "newName": "Казкова"
             },
@@ -2419,6 +2450,7 @@
             },
             {
                 "type": "lane", 
+                "newType": "street",
                 "oldName": "Тельмана (Таромське)",
                 "newName": "Івана Сохача",
                 "link": {
@@ -2446,6 +2478,7 @@
             },
             {
                 "type": "lane", 
+                "newType": "street",
                 "oldName": "Фрунзе (Таромське)",
                 "newName": "Заборинська"
             },
