@@ -37,7 +37,7 @@ var RenameDrive = {
       
     render: function () {
         var self = this, arr, 
-            core = $("#rename-data"), head, data, strings = "", item, link;
+            core = $("#rename-data"), head, data, strings = "", item, link, restored;
     
         $.ajax({
             method: "GET",
@@ -55,18 +55,22 @@ var RenameDrive = {
                     head = $("<h3>"+ arr[key].newAreaName + " (" +arr[key].oldAreaName+ ")" +"</h3>");
                     strings = "";
                     if(arr[key].objects.length > 0) {
-                        strings += '<div class="data-line-header"><div class="object-type">&nbsp;</div><div class="object-old">Стара назва</div><div class="object-new">Нова назва</div><div class="object-link">На честь</div></div>';
+                        strings += '<div class="data-line-header"><div class="object-old">Стара назва</div><div class="object-new">Нова назва</div><div class="object-restore-header">&nbsp;</div><div class="object-link">На честь</div></div>';
                         for (var i=0, l = arr[key].objects.length; i<l ; i++) {
                             item = arr[key].objects[i];
                             link = item.link === undefined ? 
-                                   "" : 
-                                   '<a href="'+item.link.href+'">'+self.linkTypes[item.link.type]+'</a>';
-                            strings += '<div class="data-line"><div class="object-type">' + 
-                                    self.types[item.type] + 
-                                    '</div><div class="object-old">'+  item.oldName + 
-                                    '</div><div class="object-new">'+  item.newName + 
-                                    '</div><div class="object-link">'+ link +
-                                    "</div></div>";
+                                    "" : 
+                                    '<a href="'+item.link.href+'">'+self.linkTypes[item.link.type]+'</a>';
+                            restored = item.restored === undefined ?
+                                    '<div class="object-restore-header"></div>' :
+                                    '<div class="object-restore" title="Повернута історична назва"></div>';
+                            strings += '<div class="data-line">' + 
+                                    '<div class="object-old">'+  item.oldName + ', <em>'+ self.types[item.type] + '</em></div>' +
+                                    '<div class="object-new">'+  item.newName + 
+                                    (!!item.newType ? ', <strong><em>'+ self.types[item.newType] + '</em></strong>' : '') +
+                                    '</div>' + restored +
+                                    '<div class="object-link">'+ link + '</div>' +
+                                    "</div>";
                         }
                     }
                     data = $("<div>" + strings + "</div>");

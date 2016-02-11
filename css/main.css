@@ -235,7 +235,7 @@ p.alert {
 div.data-line, div.data-line-header {
     float: left;
     width: 100%;
-    height: 30px;
+    height: 32px;
     line-height: 30px;
     font-size: 16px;
     position: relative;
@@ -253,19 +253,29 @@ div.object-type {
     text-align: center;
 }
 
-div.object-old, div.object-new, div.object-link {
+div.object-old, div.object-new, div.object-restore, div.object-restore-header  {
     float: left;
-    width: 300px;
     height: 100%;
+    width: 360px;
 }
 
-div.object-new {
-    width: 280px;
+div.object-restore-header {
+    width: 40px;
+}
+
+div.object-restore {
+    width: 40px;
+    background-image: url(../img/restore.png);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 div.object-link {
-    width: 85px;
-    text-align: center;
+    float:right;
+    height: 100%;
+    margin-right:5px;
+    width: 95px;
+    text-align: right;
     word-wrap: break-word;
 }
 
