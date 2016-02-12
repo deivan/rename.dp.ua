@@ -253,10 +253,23 @@ div.object-type {
     text-align: center;
 }
 
+div.find-object-type {
+    float: left;
+    width: 110px;
+    height: 100%;
+    text-align: center;
+}
+
 div.object-old, div.object-new, div.object-restore, div.object-restore-header  {
     float: left;
     height: 100%;
     width: 360px;
+}
+
+div.find-object-old, div.find-object-new  {
+    float: left;
+    height: 100%;
+    width: 270px;
 }
 
 div.object-restore-header {
