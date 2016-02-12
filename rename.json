@@ -1359,6 +1359,7 @@
             },
             {
                 "type": "street", 
+                "newType": "avenue",
                 "oldName": "Героїв Сталінграда",
                 "newName": "Богдана Хмельницького",
                 "link": {
@@ -1536,6 +1537,7 @@
             },
             {
                 "type": "street", 
+                "newType": "avenue",
                 "oldName": "Чкалова",
                 "newName": "Святослава Хороброго",
                 "link": {
@@ -1629,6 +1631,7 @@
             },
             {
                 "type": "street", 
+                "newType": "avenue",
                 "oldName": "Героїв Сталінграда",
                 "newName": "Богдана Хмельницького",
                 "link": {
