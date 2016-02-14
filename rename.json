@@ -1532,6 +1532,7 @@
                 "type": "street", 
                 "oldName": "Чичеріна",
                 "newName": "Надії Алексєєнко",
+                "restored": true,
                 "link": {
                     "href": "http://www.gorod.dp.ua/tema/persons/?pageid=790",
                     "type": 0
@@ -1760,6 +1761,7 @@
                 "type": "street", 
                 "oldName": "Чичеріна",
                 "newName": "Надії Алексєєнко",
+                "restored": true,
                 "link": {
                     "href": "http://www.gorod.dp.ua/tema/persons/?pageid=790",
                     "type": 0
