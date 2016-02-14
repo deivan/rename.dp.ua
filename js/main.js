@@ -37,11 +37,12 @@ var RenameDrive = {
       
     render: function () {
         var self = this, arr, 
-            core = $("#rename-data"), head, data, strings = "", item, link, restored;
+            core = $("#rename-data"), head, data, strings = "", 
+            tem, link, restored, t = new Date();
     
         $.ajax({
             method: "GET",
-            url: "rename.json",
+            url: "rename.json?r="+ t.getTime(),
             dataType: "json",
             contentType: "text/json; charset=UTF-8",
             crossDomain: "true"
