@@ -128,10 +128,10 @@ var RenameDrive = {
                            obj[i].newName.toLowerCase().indexOf(findArray[j]) !==-1 ) {
                             results +=
                                 '<div class="find-result-header">'+ area +'</div>' +
-                                '<div class="data-line"><div class="result-label">По-старому: </div><div class="object-type">' + 
-                                self.types[obj[i].type] + 
-                                '</div><div class="object-old">'+  obj[i].oldName + 
-                                '</div><div class="result-label">По-новому: </div><div class="object-new">'+  obj[i].newName + 
+                                '<div class="data-line"><div class="result-label">По-старому:&nbsp;</div>' + 
+                                '<div class="object-old">'+  obj[i].oldName + ', <em>'+ self.types[obj[i].type] +
+                                '</em></div><div class="result-label">По-новому:&nbsp;</div><div class="object-new">'+  obj[i].newName + 
+                                (!!obj[i].newType ? ', <strong><em>'+ self.types[obj[i].newType] + '</em></strong>' : '') +
                                 '</div></div>';
                             break;
                         }

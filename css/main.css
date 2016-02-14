@@ -256,7 +256,7 @@ div.object-type {
 div.object-old, div.object-new, div.object-restore, div.object-restore-header  {
     float: left;
     height: 100%;
-    width: 360px;
+    width: 370px;
 }
 
 div.object-restore-header {
