@@ -37,13 +37,14 @@ function send() {
 
         if (xmlhttp.status === 200) {
             answer = xmlhttp.responseText;
-            if (answer == "ok") {
+            if (answer == '"ok"') {
                 showMessage("Сообщение успешно отправлено!", "ok-text");
+
             } else {
-                if (answer == "mailerror") {
+                if (answer == '"mailerror"') {
                     showMessage("Ошибка почтового сервера, попробуйте попозже...", "error-text");
                 }
-                if (answer == "inputerror") {
+                if (answer == '"inputerror"') {
                     showMessage("Ошибка ввода данных, исправьтесь!", "error-text");
                 }
             }
@@ -60,6 +61,7 @@ function showMessage(msg, label) {
     errorLabel.style.display = "block";
     setTimeout(function() {
         errorLabel.innerHTML = "";
-        errorLabel.style.display = "none";        
+        errorLabel.style.display = "none";
+        if(label == "ok-text") window.location.reload();
     }, 3000);
 }
