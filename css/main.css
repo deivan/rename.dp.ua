@@ -423,3 +423,20 @@ div.overlay-text {
 .text-citate {
     font-style: italic;
 }
+
+.label-text {
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    margin-right: 5px;
+}
+
+#error-text {
+    color: #f00;
+    display: none;
+}
+
+#ok-text {
+    color: #0c0;
+    display: none;
+}

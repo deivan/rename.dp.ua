@@ -31,6 +31,7 @@
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <script src="js/feedback.js"></script>
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -58,7 +59,13 @@
                 
                 <h4>Чем вы можете помочь проекту?</h4>
                 <p>Этот сервис создан днепропетровцами для днепропетровцев. Все безвозмездно. Если у вас есть силы и желание сделать наш проект еще лучше - то присоединяйтесь к нам <a href="https://github.com/deivan/rename.dp.ua">в сети разработчиков ГитХаб</a></p>
-                <p>Предложения, замечания и пожелания <a href="mailto:info@rename.dp.ua"> шлите вот сюда</a></p>
+                <h4>Напишите нам о своих впечатлениях от проекта</h4>
+                <p><span class="label-text">Имя:</span><input type="text" id="username" size="30" class="input-text" /></p>
+                <p><span class="label-text">Email:</span><input type="email" id="email" size="50" class="input-text" /></p>
+                <p><span class="label-text">Текст сообщения:</span><textarea id="message" rows="6" cols="50"></textarea></p>
+                <span class="label-text">&nbsp;</span><button onclick="send()">Отправить сообщение</button>
+                <p id="error-text"></p>
+                <p id="ok-text"></p>
             </article>
             <article class="links-block">
                 <a href="index.html" class="page-navigator">На главную</a> | <a href="api-description.html" class="page-navigator">Описание API</a>
@@ -108,34 +115,34 @@
             <a href="http://www.bigmir.net/" target="_blank"><img src="//c.bigmir.net/?v16943601&s16943601&t8" width="88" height="31" alt="bigmir)net TOP 100" title="bigmir)net TOP 100" border="0" /></a>
             </noscript>
             <!--bigmir)net TOP 100-->
-<!-- Yandex.Metrika counter -->
-<script type="text/javascript">
-    (function (d, w, c) {
-        (w[c] = w[c] || []).push(function() {
-            try {
-                w.yaCounter34516755 = new Ya.Metrika({
-                    id:34516755,
-                    clickmap:true,
-                    trackLinks:true,
-                    accurateTrackBounce:true
-                });
-            } catch(e) { }
-        });
+            <!-- Yandex.Metrika counter -->
+            <script type="text/javascript">
+                (function (d, w, c) {
+                    (w[c] = w[c] || []).push(function() {
+                        try {
+                            w.yaCounter34516755 = new Ya.Metrika({
+                                id:34516755,
+                                clickmap:true,
+                                trackLinks:true,
+                                accurateTrackBounce:true
+                            });
+                        } catch(e) { }
+                    });
 
-        var n = d.getElementsByTagName("script")[0],
-            s = d.createElement("script"),
-            f = function () { n.parentNode.insertBefore(s, n); };
-        s.type = "text/javascript";
-        s.async = true;
-        s.src = "https://mc.yandex.ru/metrika/watch.js";
+                    var n = d.getElementsByTagName("script")[0],
+                        s = d.createElement("script"),
+                        f = function () { n.parentNode.insertBefore(s, n); };
+                    s.type = "text/javascript";
+                    s.async = true;
+                    s.src = "https://mc.yandex.ru/metrika/watch.js";
 
-        if (w.opera == "[object Opera]") {
-            d.addEventListener("DOMContentLoaded", f, false);
-        } else { f(); }
-    })(document, window, "yandex_metrika_callbacks");
-</script>
-<noscript><div><img src="https://mc.yandex.ru/watch/34516755" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-<!-- /Yandex.Metrika counter -->
+                    if (w.opera == "[object Opera]") {
+                        d.addEventListener("DOMContentLoaded", f, false);
+                    } else { f(); }
+                })(document, window, "yandex_metrika_callbacks");
+            </script>
+            <noscript><div><img src="https://mc.yandex.ru/watch/34516755" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+            <!-- /Yandex.Metrika counter -->
         </p>
     </body>
 </html>        
