@@ -184,13 +184,25 @@ textarea {
 body {
     background-color: #bbb;
     font-family: Arial, arial, sans-serif;
+    color: #555;
+    background-size: cover;
+}
+.background-1 {
+    background-image: url(../img/background-1.jpg);
+}
+.background-2 {
+    background-image: url(../img/background-2.jpg);
+}
+.background-3 {
+    background-image: url(../img/background-3.jpg);
 }
 
 div.container {
     margin: 10px auto;
     width:1024px;
-    background-color: #fcf0f8;
+    background-color: #fff;
     border-radius: 10px;
+    border: 2px solid #555;
     position:relative;
 }
 
@@ -439,4 +451,59 @@ div.overlay-text {
 #ok-text {
     color: #0c0;
     display: none;
+}
+
+#copyright-photo {
+    position: absolute;
+    right: 0px;
+    bottom:-15px;
+    color: #ff0;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+/* ====================   mobile version   ======================  */
+
+@media only screen and (max-width: 1025px) {
+    body {
+        background-image: none !important;
+        background-color: #fff;
+    }
+    div.container {
+        width: 100%;
+        min-width: 800px;
+        margin: 0;
+        border: none;
+        border-radius: 0;
+    }
+    div.main-logotype {
+        width: 100%;
+        min-width: 800px;
+        overflow: hidden;
+        border-radius: 0;
+    }
+    #copyright-photo {
+        display:none;
+        overflow-x: hidden;
+    }
+    .data-line-header .object-old,
+    .data-line .object-old {
+        width: 45%;
+        overflow-x: hidden;
+    }
+    .data-line-header .object-new, 
+    .data-line .object-new {
+        width: 40%;
+        overflow-x: hidden;
+    }
+    .data-line-header .object-restore-header {
+        display: none;
+    }
+    .data-line-header .object-link {
+        width: 12%;
+    }
+    .data-line .object-link {
+        width: 8%;
+    }
+
 }
