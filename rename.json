@@ -1,5 +1,5 @@
 {
-    "lastUpdate": 1464193800000,
+    "lastUpdate": 1464796800000,
     "r61": {
         "oldAreaName": "Амур-Нижньодніпровський",
         "newAreaName": "Амур-Нижньодніпровський",
@@ -939,7 +939,6 @@
             },
             {
                 "type": "street", 
-                "newType": "avenue",
                 "oldName": "Чкалова",
                 "newName": "Святослава Хороброго",
                 "link": {
@@ -1218,7 +1217,6 @@
             },
             {
                 "type": "lane", 
-                "newType": "street",
                 "oldName": "Радянський",
                 "newName": "Феодосія Макаревського",
                 "link": {
@@ -1258,7 +1256,6 @@
             },
             {
                 "type": "lane", 
-                "newType": "street",
                 "oldName": "Урицького",
                 "newName": "Євгена Коновальця",
                 "link": {
@@ -1727,7 +1724,6 @@
             },
             {
                 "type": "street", 
-                "newType": "avenue",
                 "oldName": "Чкалова",
                 "newName": "Святослава Хороброго",
                 "link": {
@@ -2310,7 +2306,6 @@
             },
             {
                 "type": "lane", 
-                "newType": "street",
                 "oldName": "Кірова (Таромське)",
                 "newName": "Назарія Яремчука",
                 "link": {
@@ -2772,7 +2767,6 @@
             },
             {
                 "type": "lane", 
-                "newType": "street",
                 "oldName": "Тельмана (Таромське)",
                 "newName": "Івана Сохача",
                 "link": {
