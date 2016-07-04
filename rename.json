@@ -1,5 +1,5 @@
 {
-    "lastUpdate": 1466662900000,
+    "lastUpdate": 1467616500000,
     "r61": {
         "oldAreaName": "Амур-Нижньодніпровський",
         "newAreaName": "Амур-Нижньодніпровський",
@@ -760,7 +760,7 @@
             {
                 "type": "street", 
                 "oldName": "Леніна",
-                "newName": "Воскресеньска",
+                "newName": "Воскресенська",
                 "restored": true
             },
             {
@@ -939,7 +939,7 @@
             },
             {
                 "type": "street", 
-                "newType": "avenue",
+                "newType": "street",
                 "oldName": "Чкалова",
                 "newName": "Святослава Хороброго",
                 "link": {

@@ -35,7 +35,7 @@
     //Если ошибок нет, отправить email
     if(!$hasError) 
     {
-        $emailTo = 'ivan@demenkov.dp.ua'; 
+        $emailTo = 'ariastation@ua.fm'; 
         $body = "Отправитель с адреса ".$email." (пользователь - ".$name.", IP:".$myip.") сoобщил:\r\n \r\n ".$comments;
         $headers = 'From: <'.$email.'> \r\n; Content-type: text/html; charset=utf-8\r\n';
         $goodmail=mail($emailTo, "[feedback] from RENAME.DP.UA", $body, $headers);     
