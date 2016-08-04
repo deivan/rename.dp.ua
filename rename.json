@@ -1,5 +1,5 @@
 {
-    "lastUpdate": 1467616500000,
+    "lastUpdate": 1470283200000,
     "r61": {
         "oldAreaName": "Амур-Нижньодніпровський",
         "newAreaName": "Амур-Нижньодніпровський",
@@ -1346,8 +1346,8 @@
         ]
     },
     "r64": {
-        "oldAreaName": "Індустріальній",
-        "newAreaName": "Індустріальній",
+        "oldAreaName": "Індустріальний",
+        "newAreaName": "Індустріальний",
         "objects": [
             {
                 "type": "street", 
