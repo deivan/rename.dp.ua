@@ -1,5 +1,5 @@
 {
-    "lastUpdate": 1470283200000,
+    "lastUpdate": 1472811600000,
     "r61": {
         "oldAreaName": "Амур-Нижньодніпровський",
         "newAreaName": "Амур-Нижньодніпровський",
@@ -564,7 +564,7 @@
             {
                 "type": "street", 
                 "oldName": "Червоного казацтва",
-                "newName": "Терещінківська",
+                "newName": "Терещенківська",
                 "link": {
                     "href": "https://uk.wikipedia.org/wiki/%D0%A2%D0%B5%D1%80%D0%B5%D1%89%D0%B5%D0%BD%D0%BA%D0%B8_%28%D1%80%D1%96%D0%B4%29",
                     "type": 3
@@ -2835,6 +2835,11 @@
                 "type": "street", 
                 "oldName": "Червоноармійська (Таромське)",
                 "newName": "Футбольна"
+            },
+            {
+                "type": "street", 
+                "oldName": "Червоних бійців",
+                "newName": "Кобзарська"
             },
             {
                 "type": "lane", 
