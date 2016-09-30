@@ -589,7 +589,7 @@
         "objects": [
             {
                 "type": "street", 
-                "oldName": "XXII партз’зду",
+                "oldName": "XXII партз'їзду",
                 "newName": "Вознесенська",
                 "restored": true
             },
@@ -887,7 +887,7 @@
             },
             {
                 "type": "lane", 
-                "oldName": "Цкахая",
+                "oldName": "Цхакая",
                 "newName": "Улюблений"
             },
             {
@@ -1483,7 +1483,7 @@
             },
             {
                 "type": "square", 
-                "oldName": "80-річчя Дніпропетровській області",
+                "oldName": "80-річчя Дніпропетровської області",
                 "newName": "Козацька",
                 "link": {
                     "href": "https://uk.wikipedia.org/wiki/%D0%9A%D0%BE%D0%B7%D0%B0%D1%86%D1%82%D0%B2%D0%BE",
@@ -1556,12 +1556,12 @@
             },
             {
                 "type": "park", 
-                "oldName": "ім.Леніна",
+                "oldName": "ім. Леніна",
                 "newName": "Героїв"
             },
             {
                 "type": "park", 
-                "oldName": "ім.Ленінського Комсомолу",
+                "oldName": "ім. Ленінського Комсомолу",
                 "newName": "Зелений Гай"
             },
             {
@@ -2646,7 +2646,7 @@
             },
             {
                 "type": "lane", 
-                "oldName": "Піонерський (Таромська)",
+                "oldName": "Піонерський (Таромське)",
                 "newName": "Марти Головіної"
             },
             {

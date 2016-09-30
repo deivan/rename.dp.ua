@@ -37,7 +37,7 @@
     {
         $emailTo = 'ariastation@ua.fm'; 
         $body = "Отправитель с адреса ".$email." (пользователь - ".$name.", IP:".$myip.") сoобщил:\r\n \r\n ".$comments;
-        $headers = 'From: <'.$email.'> \r\n; Content-type: text/html; charset=utf-8\r\n';
+        $headers = 'Content-type: text/html; charset=utf-8 \r\n; From: <'.$email.'> \r\n;';
         $goodmail=mail($emailTo, "[feedback] from RENAME.DP.UA", $body, $headers);     
         if($goodmail)
         {
