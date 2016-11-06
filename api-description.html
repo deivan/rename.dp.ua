@@ -6,7 +6,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Переименование улиц и мест Днепра: описание API</title>
+        <title>Перейменування вулиць та місць Дніпра 2015-2016: опис API</title>
         <meta name="description" content="Он-лайн справочник новых названий улиц, проспектов, площадей Днепра 2015-2016. Oписание API">
         <meta name="keywords" content="Днепр Дніпро описание API новые названия улиц Днепропетровск, описание API новые названия улиц днепр, описание API новые имена улиц Днепропетровск, описание API переименование улиц, описание API перечень новых названий улиц Днепропетровск">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -41,9 +41,9 @@
                 <img src="img/cover3.jpg" title="Picture created by Oleksiy Pyliov (C) 2016" alt="Picture created by Oleksiy Pyliov (C) 2016"/>
             </div>
             <div class="clearfix"></div>
-            <h3 class="main-header">Описание данных в формате JSON</h3>
+            <h3 class="main-header">Опис даних у форматі JSON</h3>
             <article>
-                <p>Данные в файле представлены в виде объекта:</p>
+                <p>Дані в файлі представлені у вигляді об'єкту:</p>
                 <p class="data-text">
                     {<br>
     &nbsp;&nbsp;"lastUpdate": 1451286316468,<br>
@@ -73,41 +73,52 @@
     &nbsp;&nbsp;&nbsp;&nbsp;        ...<br>
     &nbsp;&nbsp;}<br>
 } </p>
-                <p>Поля районов представлены ключами вида r61, r62, ... , r68 - таким образом кодируются районы в государственных статистических реестрах исполнительной власти. Нумерация алфавитная, это означает, что 61 - это АНД район, 62 - Бабушкинский, 68 - Самарский. Однако, в связи с изменением названий районов поменялся и их алфавитный порядок. Но! <strong>Я более чем уверен, что в органах установившийся порядок менять не будут!</strong> Скорее всего, нумерация останется старой, поменяют только названия. Ввиду этого я оставил такие поля для совместимости с базами органов исполнительной власти.</p>
-                <p>Также в корне объекта имеется поле <span class="data-text">lastUpdate</span> которое содержит временную метку даты последнего обновления файла данных (целое число).</p>
-                <p>Каждый район - это объект с обязательными полями: <span class="data-text">oldAreaName</span> - старое название района, <span class="data-text">newAreaName</span> - новое название района, <span class="data-text">objects</span> - массив географических объектов, подвергшихся переименованию.</p>
-                <p>Каждый объект переименования имеет обязательные поля: <span class="data-text">type</span> - тип объекта (перечень ниже), <span class="data-text">oldName</span> - старое название объекта, <span class="data-text">newName</span> - новое название объекта, а также набор необязательных полей, таких как <span class="data-text">newType</span>, <span class="data-text">restored</span>, <span class="data-text">link</span>.</p>
-                <p>Типы объектов переименования имеют следующиие значения:<br> 
-                    <span class="data-text">street</span> - улица<br>                
-                    <span class="data-text">lane</span> - переулок<br>
+                <p>Поля районів представлені ключами виду r61, r62, ..., r68 - таким чином кодуються райони в державних статистичних реєстрах виконавчої влади. Нумерація алфавітна, це означає, що 61 - це АНД район, 62 - Бабушкінський, 68 - Самарський.
+ Однак у зв'язку зі зміною назв районів змінився також їх алфавітний порядок. Але! 
+ <strong>Я більш чим впевнений що в держустановах ці коди змінювати не будуть!</strong> 
+ Скоріш за все, нумерація зашиться старою, будуть змінені тільки назви.  Таким чином я залишаю нумерацію полів для сумісності даних с базами держустанов.</p>
+ <p>Також в корені об'єкту є поле <span class="data-text">lastUpdate</span> яке містить тимчасову мітку дати останнього оновлення файлу даних (ціле число).</p>
+<p>
+Кожен район - це об'єкт з обов'язковими полями:<span class="data-text">oldAreaName</span> - стара назва району, 
+<span class="data-text">newAreaName</span> - ннова назва району, 
+<span class="data-text">objects</span> - масив географічних об'єктів що зазнали перейменування.</p>
+<p>
+Кожен об'єкт перейменування має обов'язкові поля: 
+  <span class="data-text">type</span> - тип об'єкту (перелік є нижче), 
+  <span class="data-text">oldName</span> - стара назва об'єкту, 
+  <span class="data-text">newName</span> - нову назву об'єкта, а також набір обов'язкових полів, таких як
+  <span class="data-text">newType</span>, <span class="data-text">restored</span>, <span class="data-text">link</span>.</p>
+<p>Типи об'єктів перейменування вживаються у такому значенні:<br> 
+                    <span class="data-text">street</span> - вулиця<br>                
+                    <span class="data-text">lane</span> - провулок<br>
                     <span class="data-text">avenue</span> - проспект<br>
                     <span class="data-text">impasse</span> - тупик<br>
-                    <span class="data-text">square</span> - площадь<br>
-                    <span class="data-text">embankment</span> - набережная<br>
+                    <span class="data-text">square</span> - площа<br>
+                    <span class="data-text">embankment</span> - набережна<br>
                     <span class="data-text">park</span> - парк, сквер<br>
-                    <span class="data-text">slope</span> - спуск<br>
-                    <span class="data-text">area</span> - жилмассив<br>
-                    <span class="data-text">lake</span> - залив<br>
-                    <span class="data-text">island</span> - остров<br>
-                    <span class="data-text">station</span> - станция<br>
+                    <span class="data-text">slope</span> - узвіз<br>
+                    <span class="data-text">area</span> - житломасив<br>
+                    <span class="data-text">lake</span> - затока<br>
+                    <span class="data-text">island</span> - острів<br>
+                    <span class="data-text">station</span> - станція<br>
                 </p>
-                <p>Поле <span class="data-text">newType</span> описывает новый тип объекта в случае если при переименовании также был изменён статус объекта (например, если улица объявлена проспектом).</p>
-                <p>Поле <span class="data-text">restored</span> с установленным значением <span class="data-text">true</span> указывает на возвращение объекту исторического названия.</p>
-                <p>Поле <span class="data-text">link</span> описывает ссылку на субъекта переименования текущего объекта (иначе говоря, в честь кого или чего сделано переименование конкретной улицы или места). Это поле, в сою очередь имеет два обязательных поля: <span class="data-text">href</span> - ссылка на источник с информацией о субъекте и <span class="data-text">type</span> - тип субъекта, это целое число, значение которого соответствует:<br>
-                    <span class="data-text">0</span> - конкретная личность<br>
-                    <span class="data-text">1</span> - определенное историческое событие<br>
-                    <span class="data-text">2</span> - географический объект<br>
-                    <span class="data-text">3</span> - некоторая организация или сообщество, например - семья<br>
+                <p>Поле <span class="data-text">newType</span> описує новий тип об'єкту в разі якщо при перейменуванні також був змінений статус об'єкта (наприклад, якщо вулиця оголошена проспектом).</p>
+                <p>Поле <span class="data-text">restored</span> з встановленим значенням <span class="data-text">true</span> вказує на повернення об'єкту історичної назви.</p>
+                <p>Поле <span class="data-text">link</span> описує посилання на суб'єкта перейменування поточного об'єкта (інакше кажучи, в честь кого або чого зроблено перейменування конкретної вулиці чи місця). Це поле, в сою чергу має два обов'язкових поля: <span class="data-text">href</span> - посилання на джерело з інформацією про суб'єкта і<span class="data-text">type</span> - тип суб'єкта, це ціле число, значення якого відповідає<br>
+                    <span class="data-text">0</span> - конкретна особа<br>
+                    <span class="data-text">1</span> - деяка історична подія<br>
+                    <span class="data-text">2</span> - географічний об'єкт<br>
+                    <span class="data-text">3</span> - деяка організація або співтовариство, наприклад - сім'я<br>
                 </p>
-                <p>Принимаются предложения по дополнительным полям, присоединяйтесь к разработке на странице <a href="about-us.html">О проекте</a></p>
-                <p>Прямая ссылка на файл с данными в формате JSON: <a href="rename.json">скачать...</a></p>
+                <p>Приймаються пропозиції щодо додавання іншіх полей, приєднуйтесь до розробки на сторінці  <a href="about-us.html">Про проект</a></p>
+                <p>Пряме посилання на файл з даними в форматі JSON: <a href="rename.json">завантажити...</a></p>
             </article>
             <article class="links-block">
-                <a href="index.html" class="page-navigator">На главную</a> | <a href="about-us.html" class="page-navigator">О проекте</a>
+                <a href="index.html" class="page-navigator">На головну</a> | <a href="about-us.html" class="page-navigator">Про проект</a>
             </article>
             <hr>
             <article>
-                <p class="footer">Хостинг предоставлен блистательно выгоднейшим хостинг-сервисом <a href="http://takprosto.biz.ua/">ТАК ПРОСТО</a></p>
+                <p class="footer">Підтримайте проект - <a href="http://my.serverhub.com/aff.php?aff=285">закажіть віртуальний сервер у ServerHub.com</a></p>
             </article>
             <a id="copyright-photo" href="http://gorod.dp.ua/photo/fullpic.php?id=101219&album_id=5">photo by &copy; gorod.dp.ua</a>
         </div>
