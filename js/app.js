@@ -42,14 +42,16 @@ class Renames {
     let self = this;
     Vue.http.get('rename.json')
       .then( data => {
-        this.dataField = JSON.parse(data.data);
-        this.areas.map( area => {
+        data.json().then( data => {
+          this.dataField = data;
+          this.areas.map( area => {
           this.dataField[area].objects.map(obj => {
             this.names.push(obj);
           });
         });
         this.makeApp();
-        console.log(this.dataField, this.names)
+        console.log(this.dataField, this.names);
+        });//JSON.parse(data.data);
       })
       .catch( data => {
         console.log('error', data,this.app)
