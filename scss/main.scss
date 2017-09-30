@@ -46,8 +46,6 @@ body {
     }
     
     &__title {
-      margin-left: 300px;
-      margin-top: -405px;
       margin-bottom: 10px;
       width: calc(100% - 310px);
       height: 15px;
@@ -64,6 +62,7 @@ body {
     
     &__table {
       margin-left: 300px;
+      margin-top: -450px;
       width: calc(100% - 310px);
       height: 410px;
       overflow-x: hidden;

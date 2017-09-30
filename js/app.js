@@ -57,7 +57,7 @@ class Renames {
         { path:'/chechelevskiy', component: { template: '<table-view data="r66"></table-view>'} },
         { path:'/novokodatskiy', component: { template: '<table-view data="r67"></table-view>'} },
         { path:'/samarskiy', component: { template: '<table-view data="r68"></table-view>'} },
-        { path:'/proproekt', component: { template: ''} },
+        { path:'/', component: { template: '<about-project></about-project>'} },
         { path:'/api', component: { template: ''} }
       ]
     });
@@ -98,6 +98,22 @@ class Renames {
         getObjectType: function (type) {
           return self.objectTypes[type];
         }
+      }
+    });
+    
+    Vue.component('about-project', {
+      template: '<section>\
+          <p>Всі назви представлені відповідно до розпоряджень про перейменування: міського голови - <strong>№882-р від 24.11.2015 р.</strong>, <strong>№897-р від 26.11.2015 р.</strong>, <strong>№71-р від 19.02.2016 р.</strong>, обласного голови - <strong>№Р-223/0/3-16 от 19.05.2016 р.</strong></p>\
+          <p>Весь масив даних доступний до будь-якого використування у вигляді JSON-об\'єкту, що є доступним <a href="rename.json">за цім посиланням</a>.</p>\n\
+          <p>Запрошуємо завантажити додаток для ОС Android: Get it on Google Play\n\
+          <a href="https://play.google.com/store/apps/details?id=ua.dp.rename.dniprostreets&amp;utm_source=global_co&amp;utm_medium=prtnr&amp;utm_content=Mar2515&amp;utm_campaign=PartBadge&amp;pcampaignid=MKT-AC-global-none-all-co-pr-py-PartBadges-Oct1515-1"><img alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/images/apps/ru-play-badge.png" width="82" height="25"></a></p>\n\
+          <p>Також для пошуку <a href="http://telegram.me/renamedpuabot">можливо скористатись Телеграм-ботом</a></p>\n\
+          </section>',
+            
+      data: function () {
+        return {
+          intro: ''
+        };
       }
     });
   }
