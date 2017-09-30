@@ -31,7 +31,6 @@ class Renames {
       },
       methods: {
         isSelected: function (url) {
-          console.log(this.$route.path, url)
           return this.$route.path === url ? 'selected' : '';
         }
       }
@@ -50,7 +49,6 @@ class Renames {
           });
         });
         this.makeApp();
-        console.log(this.dataField, this.names);
         });//JSON.parse(data.data);
       })
       .catch( data => {
@@ -163,7 +161,6 @@ class Renames {
                      || item.newName.toLowerCase().indexOf(this.search.toLowerCase()) !== -1);
               });
               this.filteredData.push(obj);
-              console.log(area, obj)
             });
           }
         },
