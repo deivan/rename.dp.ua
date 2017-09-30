@@ -107,6 +107,13 @@ body {
       p {
         padding: 3px;
         margin: 0;
+        
+        &.special {
+          padding:8px;
+          background-color: #eee;
+          border-radius: 4px;
+          border: 1px solid #ddd;
+        }
       }
       
       .data-text {

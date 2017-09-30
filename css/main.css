@@ -86,6 +86,11 @@ body {
       body .container__table p {
         padding: 3px;
         margin: 0; }
+        body .container__table p.special {
+          padding: 8px;
+          background-color: #eee;
+          border-radius: 4px;
+          border: 1px solid #ddd; }
       body .container__table .data-text {
         font-family: courier, monospace;
         font-size: 0.9em;
