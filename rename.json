@@ -1,5 +1,5 @@
 {
-    "lastUpdate": 1464096400000,
+    "lastUpdate": "1506859200000",
     "r61": {
         "oldAreaName": "Амур-Нижньодніпровський",
         "newAreaName": "Амур-Нижньодніпровський",
@@ -486,7 +486,11 @@
             {
                 "type": "street", 
                 "oldName": "Сиворонова",
-                "newName": "Софії Русової"
+                "newName": "Софії Русової",
+                "link": {
+                    "href": "https://uk.wikipedia.org/wiki/%D0%A0%D1%83%D1%81%D0%BE%D0%B2%D0%B0_%D0%A1%D0%BE%D1%84%D1%96%D1%8F_%D0%A4%D0%B5%D0%B4%D0%BE%D1%80%D1%96%D0%B2%D0%BD%D0%B0",
+                    "type": 0
+                }
             },
             {
                 "type": "lane", 
@@ -560,7 +564,7 @@
             {
                 "type": "street", 
                 "oldName": "Червоного казацтва",
-                "newName": "Терещінківська",
+                "newName": "Терещенківська",
                 "link": {
                     "href": "https://uk.wikipedia.org/wiki/%D0%A2%D0%B5%D1%80%D0%B5%D1%89%D0%B5%D0%BD%D0%BA%D0%B8_%28%D1%80%D1%96%D0%B4%29",
                     "type": 3
@@ -585,7 +589,7 @@
         "objects": [
             {
                 "type": "street", 
-                "oldName": "XXII партз’зду",
+                "oldName": "XXII партз'їзду",
                 "newName": "Вознесенська",
                 "restored": true
             },
@@ -677,6 +681,16 @@
                 }
             },
             {
+                "type": "station",
+                "oldName": "Дніпропетровськ-Вантажний",
+                "newName": "Дніпро-Вантажний"
+            },
+            {
+                "type": "station",
+                "oldName": "Дніпропетровськ-Ліски",
+                "newName": "Дніпро-Ліски"
+            },
+            {
                 "type": "avenue", 
                 "oldName": "Ілліча",
                 "newName": "Пилипа Орлика",
@@ -756,7 +770,7 @@
             {
                 "type": "street", 
                 "oldName": "Леніна",
-                "newName": "Воскресеньска",
+                "newName": "Воскресенська",
                 "restored": true
             },
             {
@@ -883,7 +897,7 @@
             },
             {
                 "type": "lane", 
-                "oldName": "Цкахая",
+                "oldName": "Цхакая",
                 "newName": "Улюблений"
             },
             {
@@ -935,7 +949,7 @@
             },
             {
                 "type": "street", 
-                "newType": "avenue",
+                "newType": "street",
                 "oldName": "Чкалова",
                 "newName": "Святослава Хороброго",
                 "link": {
@@ -1075,6 +1089,11 @@
                     "href": "https://uk.wikipedia.org/wiki/%D0%94%D0%BE%D0%BD%D1%86%D0%BE%D0%B2_%D0%94%D0%BC%D0%B8%D1%82%D1%80%D0%BE_%D0%86%D0%B2%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%87",
                     "type": 0
                 }
+            },
+            {
+                "type": "station",
+                "oldName": "Дніпропетровськ-Південний",
+                "newName": "Дніпро-Лоцманська"
             },
             {
                 "type": "park", 
@@ -1300,7 +1319,7 @@
                 "newName": "Крута балка"
             },
             {
-                "type": "impass", 
+                "type": "impasse", 
                 "oldName": "Червона балка",
                 "newName": "Крута балка"
             },
@@ -1342,8 +1361,8 @@
         ]
     },
     "r64": {
-        "oldAreaName": "Індустріальній",
-        "newAreaName": "Індустріальній",
+        "oldAreaName": "Індустріальний",
+        "newAreaName": "Індустріальний",
         "objects": [
             {
                 "type": "street", 
@@ -1479,7 +1498,7 @@
             },
             {
                 "type": "square", 
-                "oldName": "80-річчя Дніпропетровській області",
+                "oldName": "80-річчя Дніпропетровської області",
                 "newName": "Козацька",
                 "link": {
                     "href": "https://uk.wikipedia.org/wiki/%D0%9A%D0%BE%D0%B7%D0%B0%D1%86%D1%82%D0%B2%D0%BE",
@@ -1551,13 +1570,18 @@
                 }
             },
             {
+                "type": "station",
+                "oldName": "Дніпропетровськ",
+                "newName": "Дніпро-Головний"
+            },
+            {
                 "type": "park", 
-                "oldName": "ім.Леніна",
+                "oldName": "ім. Леніна",
                 "newName": "Героїв"
             },
             {
                 "type": "park", 
-                "oldName": "ім.Ленінського Комсомолу",
+                "oldName": "ім. Ленінського Комсомолу",
                 "newName": "Зелений Гай"
             },
             {
@@ -1604,7 +1628,7 @@
             {
                 "type": "street", 
                 "oldName": "Леніна",
-                "newName": "Воскресеньска",
+                "newName": "Воскресенська",
                 "restored": true
             },
             {
@@ -1644,7 +1668,7 @@
                 "oldName": "Петровського",
                 "newName": "Вокзальна",
                 "link": {
-                    "href": "https://uk.wikipedia.org/wiki/%D0%94%D0%BD%D1%96%D0%BF%D1%80%D0%BE%D0%BF%D0%B5%D1%82%D1%80%D0%BE%D0%B2%D1%81%D1%8C%D0%BA_%28%D1%81%D1%82%D0%B0%D0%BD%D1%86%D1%96%D1%8F%29",
+                    "href": "https://uk.wikipedia.org/wiki/%D0%94%D0%BD%D1%96%D0%BF%D1%80%D0%BE-%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%B9",
                     "type": 2
                 }
             },
@@ -1743,7 +1767,7 @@
             {
                 "type": "street", 
                 "oldName": "Щербицького",
-                "newName": "Олени Блаватської",
+                "newName": "Олени Блавацької",
                 "link": {
                     "href": "https://uk.wikipedia.org/wiki/%D0%91%D0%BB%D0%B0%D0%B2%D0%B0%D1%82%D1%81%D1%8C%D0%BA%D0%B0_%D0%9E%D0%BB%D0%B5%D0%BD%D0%B0_%D0%9F%D0%B5%D1%82%D1%80%D1%96%D0%B2%D0%BD%D0%B0",
                     "type": 0
@@ -1829,7 +1853,11 @@
             {
                 "type": "street", 
                 "oldName": "Героїв Краснодона",
-                "newName": "Яготинська"
+                "newName": "Яготинська",
+                "link": {
+                    "href": "https://uk.wikipedia.org/wiki/%D0%AF%D0%B3%D0%BE%D1%82%D0%B8%D0%BD",
+                    "type": 2
+                }
             },
             {
                 "type": "lane", 
@@ -1903,7 +1931,11 @@
             {
                 "type": "street", 
                 "oldName": "Марини Раскової",
-                "newName": "Олександра Верховцева"
+                "newName": "Олександра Верховцева",
+                "link": {
+                    "href": "https://uk.wikipedia.org/wiki/%D0%92%D0%B5%D1%80%D1%85%D0%BE%D0%B2%D1%86%D0%B5%D0%B2_%D0%9E%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80_%D0%90%D0%BF%D0%BF%D0%BE%D0%BB%D0%BE%D0%BD%D0%BE%D0%B2%D0%B8%D1%87",
+                    "type": 0
+                }
             },
             {
                 "type": "street", 
@@ -1917,12 +1949,20 @@
             {
                 "type": "street", 
                 "oldName": "Новоколгоспна",
-                "newName": "Острозька"
+                "newName": "Острозька",
+                "link": {
+                    "href": "https://uk.wikipedia.org/wiki/%D0%9E%D1%81%D1%82%D1%80%D0%BE%D0%B3",
+                    "type": 2
+                }
             },
             {
                 "type": "street", 
                 "oldName": "Перекопська",
-                "newName": "Бессарабська"
+                "newName": "Бессарабська",
+                "link": {
+                    "href": "https://uk.wikipedia.org/wiki/%D0%91%D0%B5%D1%81%D1%81%D0%B0%D1%80%D0%B0%D0%B1%D1%96%D1%8F",
+                    "type": 2
+                }
             },
             {
                 "type": "lane", 
@@ -1936,7 +1976,11 @@
             {
                 "type": "street", 
                 "oldName": "Правди",
-                "newName": "Олексія Тищика"
+                "newName": "Олексія Тищика",
+                "link": {
+                    "href": "http://memorybook.org.ua/22/tyshik.htm",
+                    "type": 0
+                }
             },
             {
                 "type": "street", 
@@ -2458,7 +2502,7 @@
             },
             {
                 "type": "street", 
-                "oldName": "Круаської",
+                "oldName": "Крупської",
                 "newName": "Баллінська",
                 "link": {
                     "href": "https://uk.wikipedia.org/wiki/%D0%91%D0%B0%D0%BB%D0%BB%D1%96%D0%BD_%D0%9C%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0_%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B2%D0%B8%D1%87",
@@ -2622,7 +2666,7 @@
             },
             {
                 "type": "lane", 
-                "oldName": "Піонерський (Таромська)",
+                "oldName": "Піонерський (Таромське)",
                 "newName": "Марти Головіної"
             },
             {
@@ -2651,12 +2695,20 @@
             {
                 "type": "street", 
                 "oldName": "Пролетарська",
-                "newName": "Галицька"
+                "newName": "Галицька",
+                "link": {
+                    "href": "https://uk.wikipedia.org/wiki/%D0%93%D0%B0%D0%BB%D0%B8%D1%87%D0%B8%D0%BD%D0%B0",
+                    "type": 2
+                }
             },
             {
                 "type": "lane", 
                 "oldName": "Пролетарська",
-                "newName": "Галицький"
+                "newName": "Галицький",
+                "link": {
+                    "href": "https://uk.wikipedia.org/wiki/%D0%93%D0%B0%D0%BB%D0%B8%D1%87%D0%B8%D0%BD%D0%B0",
+                    "type": 2
+                }
             },
             {
                 "type": "street", 
@@ -2789,6 +2841,14 @@
                     "href": "https://uk.wikipedia.org/wiki/%D0%A2%D0%B5%D0%BB%D1%96%D0%B3%D0%B0_%D0%9E%D0%BB%D0%B5%D0%BD%D0%B0_%D0%86%D0%B2%D0%B0%D0%BD%D1%96%D0%B2%D0%BD%D0%B0",
                     "type": 0
                 }
+            },            {
+                "type": "street", 
+                "oldName": "Хуліана Грімау",
+                "newName": "Віктора Мерзленка",
+                "link": {
+                    "href": "https://uk.wikipedia.org/wiki/%D0%9C%D0%B5%D1%80%D0%B7%D0%BB%D0%B5%D0%BD%D0%BA%D0%BE_%D0%92%D1%96%D0%BA%D1%82%D0%BE%D1%80_%D0%86%D0%B2%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%87",
+                    "type": 0
+                }
             },
             {
                 "type": "street", 
@@ -2803,6 +2863,11 @@
                 "type": "street", 
                 "oldName": "Червоноармійська (Таромське)",
                 "newName": "Футбольна"
+            },
+            {
+                "type": "street", 
+                "oldName": "Червоних бійців",
+                "newName": "Кобзарська"
             },
             {
                 "type": "lane", 
@@ -2915,7 +2980,11 @@
             {
                 "type": "street", 
                 "oldName": "Героїв-панфіловців",
-                "newName": "Героїв Чорнобиля"
+                "newName": "Героїв Чорнобиля",
+                "link": {
+                    "href": "https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D0%BA%D0%B2%D0%B8%D0%B4%D0%B0%D1%82%D0%BE%D1%80%D1%8B_%D0%BF%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%B8%D0%B9_%D0%B0%D0%B2%D0%B0%D1%80%D0%B8%D0%B8_%D0%BD%D0%B0_%D0%A7%D0%B5%D1%80%D0%BD%D0%BE%D0%B1%D1%8B%D0%BB%D1%8C%D1%81%D0%BA%D0%BE%D0%B9_%D0%90%D0%AD%D0%A1",
+                    "type": 3
+                }
             },
             {
                 "type": "street", 
@@ -3087,7 +3156,11 @@
             {
                 "type": "street", 
                 "oldName": "Червонобогатирська",
-                "newName": "Богатирська"
+                "newName": "Богатирська",
+                "link": {
+                    "href": "https://uk.wikipedia.org/wiki/%D0%91%D0%BE%D0%B3%D0%B0%D1%82%D0%B8%D1%80",
+                    "type": 3
+                }
             },
             {
                 "type": "lane", 
