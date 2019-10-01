@@ -1,0 +1,138 @@
+@font-face {
+    font-family: SelectedFont;
+    src: url(../Segoe_UI.ttf);
+}
+
+body {
+  position:relative;
+  margin: 0;
+  padding: 0;
+  background-color: #aaa;
+
+  @media (min-width: 1904px) {
+    .container {
+      max-width: 1480px;
+    }
+  }
+
+  .v-content {
+    font-size: 16px;
+    background-image: url(../dniproicons.jpg);
+    background-repeat: repeat;
+    width: 100%;
+    font-family: SelectedFont, Arial, Helvetica, sans-serif;
+  }
+
+  h1 {
+    font-size: 24px;
+    font-weight: 900;
+    color: #00c;
+    text-align: center;
+    text-shadow: 0px 5px 10px #ff0, 0px -5px 10px #ff0;
+  }
+
+  h4 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #050;
+    padding: 12px 0;
+  }
+
+  input.input-search {
+    width:330px;
+    padding: 4px 8px;
+    border: 1px solid #ddd;
+    border-radius:4px;
+    margin-bottom: 20px;
+  }
+
+  article.links-block {
+    padding-top:20px;
+    padding-bottom:10px;
+  }
+
+  .copyright {
+    position: absolute;
+    left:10px;
+    bottom:10px;
+    font-size: 12px;
+
+    a {
+      text-decoration: none;
+      color: #800;
+      font-weight: 900;
+    }
+  }
+
+  .footer {
+    margin-top:10px;
+    width: 100%;
+    text-align: center;
+  }
+
+  article {
+    margin-top: 24px;
+  }
+
+  .table-view {
+    width:100%;
+    color: #444;
+    font-size: 16px;
+    tr {
+      border-bottom: 1px solid #aaa;
+
+      &.search-header {
+        background-color: #ddd;
+        border-bottom: 3px double #aaa;
+      }
+
+      td {
+        padding: 3px 8px;
+
+        &.table-view__names {
+          width: 75%;
+          .table-view__names--new {
+            text-transform: uppercase;
+          }
+          .table-view__names--old {
+            text-align: right;
+            font-style: italic;
+          }
+        }
+
+        &.table-view__descr {
+          text-align: right;
+          line-height: 37px;
+          span.table-view__descr--mark {
+            display: inline-block;
+            float:right;
+            width: 32px;
+            height: 32px;
+            margin-left: 10px;
+            &.restored {
+              background-image: url(../restore.png);
+            }
+          }
+          a {
+            color: #008;
+          }
+        }
+      }
+    }
+  }
+
+  .container__title {
+    margin: 10px 0;
+    height: 24px;
+    width: 100%;
+    line-height: 15px;
+    font-weight: 900;
+    font-size: 13px;
+    border-bottom: 3px double #aaa;
+    span.column2 {
+      display: inline-block;
+      float: right;
+      margin-right: 50px;
+    }
+  }
+}
