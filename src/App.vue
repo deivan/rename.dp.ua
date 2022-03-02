@@ -1,6 +1,6 @@
 <template>
     <v-app>
-      <v-content>
+      <v-main>
         <v-container>
           <v-card height="100%" :loading="isLoading">
             <v-img src="./assets/cover3.jpg" height="350" position="center top"></v-img>
@@ -21,7 +21,7 @@
             </v-card-text>
           </v-card>
         </v-container>
-      </v-content>
+      </v-main>
     </v-app>
 </template>
 

@@ -4,10 +4,15 @@
     <div class="container__cover">
       <table class="table-view">
         <tbody>
-          <tr v-for="item in arr">
+          <tr v-for="item in arr" :key="item.newName">
             <td class="table-view__names">
-              <div class="table-view__names--new">{{item.newName}}<span v-if="item.newType">, {{getObjectType(item.newType)}}</span></div>
-              <div class="table-view__names--old">{{getObjectType(item.type)}} {{item.oldName}}</div>
+              <div class="table-view__names--new">
+                {{item.newName}}
+                <span v-if="item.newType">, {{getObjectType(item.newType)}}</span>
+              </div>
+              <div class="table-view__names--old">
+                {{getObjectType(item.type)}} {{item.oldName}}
+              </div>
             </td>
             <td class="table-view__descr">
               <span class="table-view__descr--mark" :class="getClass(item.restored)" :title="getTitle(item.restored)"></span>

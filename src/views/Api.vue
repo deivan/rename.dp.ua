@@ -88,4 +88,11 @@ export default {
   article {
     margin-top: 24px;
   }
+  .data-text {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+    line-height: 12px;
+    background-color: #eee;
+    color: #000;
+  }
 </style>

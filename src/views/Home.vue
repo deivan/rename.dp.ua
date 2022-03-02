@@ -1,6 +1,6 @@
 <template>
   <div class="content">
-    <h1>Перейменування вулиць та місць Дніпра 2015-2016</h1>
+    <h1>Перейменування вулиць та місць Дніпра 2015-2019</h1>
     <article>
       <p>Всі назви представлені відповідно до розпоряджень про перейменування: міського голови -
       <ul>
@@ -24,10 +24,12 @@
 
       <h3>Пошук за назвою (бажано українською):</h3>
       <input class="input-search" v-model.trim="search" @keyup="filter" />
-      <table class="table-view" v-for="tab in filteredData" v-if="tab.obj.length > 0">
-        <tr class="search-header"><th colspan="2">{{tab.name}}</th></tr>
-        <tbody>
-        <tr v-for="item in tab.obj">
+      <table class="table-view" v-for="tab in filteredData" :key="tab.name">
+        <thead v-if="tab.obj.length > 0">
+          <tr class="search-header"><th colspan="2">{{tab.name}}</th></tr>
+        </thead>
+        <tbody v-if="tab.obj.length > 0">
+        <tr v-for="item in tab.obj" :key="item.newName">
           <td class="table-view__names">
             <div class="table-view__names--new">{{item.newName}}<span v-if="item.newType">, {{getObjectType(item.newType)}}</span></div>
             <div class="table-view__names--old">{{getObjectType(item.type)}} {{item.oldName}}</div>
@@ -62,7 +64,7 @@ export default {
 
       } else {
         this.baseData.areas.map(area => {
-          let obj = { name: `${this.allData[area].newAreaName} (${this.allData[area].oldAreaName})`, obj: [] }
+          const obj = { name: `${this.allData[area].newAreaName} (${this.allData[area].oldAreaName})`, obj: [] }
           obj.obj = this.allData[area].objects.filter(item => {
             return (item.oldName.toLowerCase().indexOf(this.search.toLowerCase()) !== -1 ||
                 item.newName.toLowerCase().indexOf(this.search.toLowerCase()) !== -1)
