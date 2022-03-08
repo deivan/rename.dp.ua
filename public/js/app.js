@@ -27,6 +27,10 @@ class RenameApp {
                 </li>
             `;
         });
+
+        menuContent += `
+            <div class="fb-share-button" data-href="http://rename.dp.ua/" data-layout="button_count" style="margin-top:36px"></div>
+        `;
         navBar.innerHTML = menuContent;
     }
 
