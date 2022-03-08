@@ -6,9 +6,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Перейменування вулиць Дніпра 2015-2019</title>
+    <title>Перейменування вулиць Дніпра 2015-2019 :: Чечелівський район</title>
     <meta name="description" content="Он-лайн довідник перейменувань вілиць та місць Дніпра 2015-2019 у розрізі районів">
-    <meta name="keywords" content="Днепр Дніпро новые названия улиц Днепропетровск 2015, новые названия улиц днепр 2015 2016, новые имена улиц Днепропетровск, переименование улиц, перечень новых названий улиц Днепропетровск, полный список названий, переименование улиц и площадей, распоряжение о переименовании улиц, слушания о переименовании, переименование и декоммунизация, полный список новых названий, нові назви Дніпра">
+    <meta name="keywords" content="АНД район Днепр Дніпро новые названия улиц Днепропетровск 2015, новые названия улиц днепр 2015 2016, новые имена улиц Днепропетровск, переименование улиц, перечень новых названий улиц Днепропетровск, полный список названий, переименование улиц и площадей, распоряжение о переименовании улиц, слушания о переименовании, переименование и декоммунизация, полный список новых названий, нові назви Дніпра">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="apple-touch-icon" sizes="57x57" href="icons/apple-touch-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="icons/apple-touch-icon-60x60.png">
@@ -62,14 +62,7 @@
           <div class="container-fluid container-main-background margin-from-logo">
             <h1 class="main-title">Перейменування вулиць та місць Дніпра 2015-2019</h1>
             <article>
-              <h3>Пошук за назвою (бажано українською):</h3>
-              <form class="d-flex needs-validation" novalidate>
-                <input class="form-control me-2" id="searchName" type="search" placeholder="напишіть назву вулиці чи місця" aria-label="Search" min-length="3">
-                <div class="invalid-feedback">
-                  Повинно бути хоча б 3 символи!
-                </div>
-                <button class="btn btn-outline-success" id="searchRename">Пошук</button>
-              </form>
+              <h3><span id="newAreaName"></span> <span id="oldAreaName"></span> район</h3>
               <div class="table-responsive">
                 <table class="table">
                   <thead>
@@ -81,33 +74,6 @@
                   <tbody id="tableContent"></tbody>
                 </table>
               </div>
-            </article>
-
-            <article class="margin-from-logo">
-              <p>Всі назви представлені відповідно до розпоряджень про перейменування:<br> 
-              міського голови -
-                <ul>
-                  <li><strong>№882-р від 24.11.2015 р.</strong></li>
-                  <li><strong>№897-р від 26.11.2015 р.</strong></li>
-                  <li><strong>№71-р від 19.02.2016 р.</strong></li>
-                </ul>
-                міської ради -
-                <ul>
-                  <li><strong>№61/34 від 25.07.2018 р.</strong></li>
-                  <li><strong>№57/46 від 19.06.2019 р.</strong></li>
-                  <li><strong>№78/47 від 24.07.2019 р.</strong></li>
-                </ul>
-                обласного голови - 
-                <ul>
-                  <li><strong>№Р-223/0/3-16 от 19.05.2016 р.</strong></li>
-                </ul>
-              </p>
-              <p>Весь масив даних доступний до будь-якого використання у вигляді JSON-об'єкту, що є доступним <a href="rename.json">за цим посиланням</a>.</p>
-              <p>Запрошуємо завантажити додаток для ОС Android:
-                <a href="https://play.google.com/store/apps/details?id=ua.dp.rename.dniprostreets&amp;utm_source=global_co&amp;utm_medium=prtnr&amp;utm_content=Mar2515&amp;utm_campaign=PartBadge&amp;pcampaignid=MKT-AC-global-none-all-co-pr-py-PartBadges-Oct1515-1"><img alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/images/apps/ru-play-badge.png" width="82" height="25"></a></p>
-              <p>Також для пошуку <a href="http://telegram.me/renamedpuabot">можливо скористатись Телеграм-ботом</a></p>
-              <p>Позначкою  <img src="assets/restore.png" />  помічена повернута історична назва об'єкту.</p>
-              <p class="special">Завантажте авторський буклет з переліком перейменувань від <a href="http://atomoxod.in.ua">Олексія Пильова</a>, у вигляді файла формату PDF <a href="Dnipro_Rename_v2.pdf">за цим посиланням</a></p>
             </article>
           </div>
         </div>
@@ -133,9 +99,8 @@
     <script src="js/baseData.js"></script>
     <script src="js/data.js"></script>
     <script src="js/app.js"></script>
-    <script src="js/searchApp.js"></script>
     <script>
-      new SearchApp();
+      new RenameApp('r66');
     </script>
   </body>
 </html>

@@ -1,0 +1,113 @@
+@font-face {
+    font-family: 'DniproCity';
+    src: url('../fonts/DniproCity-Bold.eot');
+    src: local('../fonts/DniproCity Bold'), local('DniproCity-Bold'),
+        url('../fonts/DniproCity-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/DniproCity-Bold.woff') format('woff'),
+        url('../fonts/DniproCity-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DniproCity';
+    src: url('../fonts/DniproCity-Regular.eot');
+    src: local('../fonts/DniproCity Regular'), local('DniproCity-Regular'),
+        url('../fonts/DniproCity-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/DniproCity-Regular.woff') format('woff'),
+        url('../fonts/DniproCity-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body, div, h1, h2, h3, h4, p {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    font-family: 'DniproCity', Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url(../assets/dniproicons.jpg);
+}
+
+.container-main {
+    border-radius: 5px;
+    margin-top: 5%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: rgba(240,240,240, 0.9);
+}
+
+.top-logotype {
+    width:100%;
+    height: 460px;
+    background-image: url(../assets/dnipropetrovsk_rename_cover_v2.jpg);
+    background-size: cover;
+}
+
+.margin-from-logo {
+    margin-top: 16px;
+}
+
+.padding-left-none {
+    padding-left: 0;
+}
+
+.container-main-background {
+    background-color: #fff;
+    border-radius: 3px;
+}
+
+.copyright {
+    text-decoration: none;
+    color: #800;
+    font-weight: 900;
+    font-size: 11px;
+}
+
+.list-group-item a {
+    text-decoration: none;
+}
+.list-group-item.active a {
+    color: #fff;
+}
+
+.this-is-footer {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.disabled {
+    opacity: .5;
+    pointer-events: none;
+}
+
+.areaLine {
+    background-color: #ddd;
+    font-weight: 900;
+}
+
+.secondColumn {
+    text-align: right;
+}
+
+.data-text {
+    font-family: 'Courier New', Courier, monospace;
+    font-size:12px;
+    background-color: #ccc;
+    color: red;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+}
+
+.main-title {
+    font-size: 24px;
+    font-weight: 900;
+    color: #00c;
+    text-align: center;
+    text-shadow: 0 5px 10px #ff0, 0 -5px 10px #ff0;
+    padding: 8px 0 24px;
+}
