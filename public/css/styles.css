@@ -75,6 +75,34 @@ body {
     color: #fff;
 }
 
+.this-is-footer {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.disabled {
+    opacity: .5;
+    pointer-events: none;
+}
+
+.areaLine {
+    background-color: #ddd;
+    font-weight: 900;
+}
+
+.secondColumn {
+    text-align: right;
+}
+
+.data-text {
+    font-family: 'Courier New', Courier, monospace;
+    font-size:12px;
+    background-color: #ccc;
+    color: red;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+}
+
 .main-title {
     font-size: 24px;
     font-weight: 900;
