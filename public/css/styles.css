@@ -111,3 +111,13 @@ body {
     text-shadow: 0 5px 10px #ff0, 0 -5px 10px #ff0;
     padding: 8px 0 24px;
 }
+
+.donation {
+    color: #040;
+    font-size: 11px;
+}
+
+.donation p {
+    margin: 12px 0;
+    padding-right: 20%;
+}

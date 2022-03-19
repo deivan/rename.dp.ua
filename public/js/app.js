@@ -16,6 +16,7 @@ class RenameApp {
 
     initMenu() {
         const navBar = document.querySelector('#navBar');
+        const donate = document.createElement('DIV');
         let menuContent = '';
 
         if (!navBar) return;
@@ -27,6 +28,17 @@ class RenameApp {
                 </li>
             `;
         });
+
+        donate.classList.add('donation');
+        donate.innerHTML = `
+            <p>Проект потребує систематичнмх витрат на підтримку серверу та домену, якщо у вас є можливість допомогти, - натисніть кнопку нижче, щиро дякую:</p>
+            <form action="https://www.paypal.com/donate" method="post" target="_top">
+                <input type="hidden" name="hosted_button_id" value="LMVNT3JF6TR66" />
+                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+                <img alt="" border="0" src="https://www.paypal.com/en_UA/i/scr/pixel.gif" width="1" height="1" />
+            </form>
+        `;
+        navBar.parentElement.appendChild(donate);
 
         menuContent += `
             <div class="fb-share-button" data-href="http://rename.dp.ua/" data-layout="button_count" style="margin-top:36px"></div>
