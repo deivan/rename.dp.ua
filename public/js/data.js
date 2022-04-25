@@ -1,6 +1,6 @@
 const DATA = `
 {
-    "lastUpdate": "1571572800000",
+    "lastUpdate": "1650887331000",
     "r61": {
         "oldAreaName": "Амур-Нижньодніпровський",
         "newAreaName": "Амур-Нижньодніпровський",
@@ -580,8 +580,80 @@ const DATA = `
                     "href": "https://uk.wikipedia.org/wiki/%D0%9C%D0%B0%D0%BA%D1%83%D1%85_%D0%92%D0%B0%D1%81%D0%B8%D0%BB%D1%8C_%D0%9E%D0%BC%D0%B5%D0%BB%D1%8F%D0%BD%D0%BE%D0%B2%D0%B8%D1%87",
                     "type": 0
                 }
+            },
+            {
+                "type": "lane",
+                "oldName": "Бурятський",
+                "newName": "Бучанський",
+                "link": {
+                    "href": "https://uk.wikipedia.org/wiki/%D0%91%D1%83%D1%87%D0%B0",
+                    "type": 2
+                }
+            },
+            {
+                "type": "lane",
+                "oldName": "Воркутинський",
+                "newName": "Вольовий"
+            },
+            {
+                "type": "street",
+                "oldName": "Ростовська",
+                "newName": "Конотопська",
+                "link": {
+                    "href": "https://uk.wikipedia.org/wiki/%D0%9A%D0%BE%D0%BD%D0%BE%D1%82%D0%BE%D0%BF",
+                    "type": 2
+                }
+            },
+            {
+                "type": "lane",
+                "oldName": "Ростовський",
+                "newName": "Конотопський",
+                "link": {
+                    "href": "https://uk.wikipedia.org/wiki/%D0%9A%D0%BE%D0%BD%D0%BE%D1%82%D0%BE%D0%BF",
+                    "type": 2
+                }
+            },
+            {
+                "type": "impasse",
+                "oldName": "Ростовський",
+                "newName": "Конотопський",
+                "link": {
+                    "href": "https://uk.wikipedia.org/wiki/%D0%9A%D0%BE%D0%BD%D0%BE%D1%82%D0%BE%D0%BF",
+                    "type": 2
+                }
+            },
+            {
+                "type": "street",
+                "oldName": "Тагільська",
+                "newName": "Новоазовська",
+                "link": {
+                    "href": "https://uk.wikipedia.org/wiki/%D0%9D%D0%BE%D0%B2%D0%BE%D0%B0%D0%B7%D0%BE%D0%B2%D1%81%D1%8C%D0%BA",
+                    "type": 2
+                }
+            },
+            {
+                "type": "lane",
+                "oldName": "Тагільський",
+                "newName": "Новоазовський",
+                "link": {
+                    "href": "https://uk.wikipedia.org/wiki/%D0%9D%D0%BE%D0%B2%D0%BE%D0%B0%D0%B7%D0%BE%D0%B2%D1%81%D1%8C%D0%BA",
+                    "type": 2
+                }
+            },
+            {
+                "type": "street",
+                "oldName": "Уфімська",
+                "newName": "Деснянська"
+            },
+            {
+                "type": "street",
+                "oldName": "Хабарівська",
+                "newName": "Салтівська",
+                "link": {
+                    "href": "https://uk.wikipedia.org/wiki/%D0%A1%D0%B0%D0%BB%D1%82%D1%96%D0%B2%D0%BA%D0%B0",
+                    "type": 2
+                }
             }
-
         ]
     },
     "r62": {
@@ -1011,6 +1083,51 @@ const DATA = `
                     "href": "http://db.yadvashem.org/righteous/righteousName.html?language=ru&itemId=4034486",
                     "type": 0
                 }
+            },
+            {
+                "type": "street",
+                "oldName": "Абхазська",
+                "newName": "Ірпінська",
+                "link": {
+                    "href": "https://uk.wikipedia.org/wiki/%D0%86%D1%80%D0%BF%D1%96%D0%BD%D1%8C",
+                    "type": 2
+                }
+            },
+            {
+                "type": "lane",
+                "oldName": "Абхазський",
+                "newName": "Ірпінський",
+                "link": {
+                    "href": "https://uk.wikipedia.org/wiki/%D0%86%D1%80%D0%BF%D1%96%D0%BD%D1%8C",
+                    "type": 2
+                }
+            },
+            {
+                "type": "street",
+                "oldName": "Ярославська",
+                "newName": "Вишгородська",
+                "link": {
+                    "href": "https://uk.wikipedia.org/wiki/%D0%92%D0%B8%D1%88%D0%B3%D0%BE%D1%80%D0%BE%D0%B4",
+                    "type": 2
+                }
+            },
+            {
+                "type": "street",
+                "oldName": "Рибінська",
+                "newName": "25-ї Січеславської Бригади",
+                "link": {
+                    "href": "https://uk.wikipedia.org/wiki/25-%D1%82%D0%B0_%D0%BE%D0%BA%D1%80%D0%B5%D0%BC%D0%B0_%D0%BF%D0%BE%D0%B2%D1%96%D1%82%D1%80%D1%8F%D0%BD%D0%BE%D0%B4%D0%B5%D1%81%D0%B0%D0%BD%D1%82%D0%BD%D0%B0_%D0%B1%D1%80%D0%B8%D0%B3%D0%B0%D0%B4%D0%B0_(%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B0)",
+                    "type": 3
+                }
+            },
+            {
+                "type": "street",
+                "oldName": "Челюскіна",
+                "newName": "93-ї Холодноярської Бригади",
+                "link": {
+                    "href": "https://uk.wikipedia.org/wiki/93-%D1%82%D1%8F_%D0%BE%D0%BA%D1%80%D0%B5%D0%BC%D0%B0_%D0%BC%D0%B5%D1%85%D0%B0%D0%BD%D1%96%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B0_%D0%B1%D1%80%D0%B8%D0%B3%D0%B0%D0%B4%D0%B0_%C2%AB%D0%A5%D0%BE%D0%BB%D0%BE%D0%B4%D0%BD%D0%B8%D0%B9_%D0%AF%D1%80%C2%BB",
+                    "type": 3
+                }
             }
         ]
     },
@@ -1389,6 +1506,20 @@ const DATA = `
                     "href": "https://uk.wikipedia.org/wiki/%D0%9C%D0%B0%D0%B3%D0%BE%D0%BC%D0%B0%D1%94%D0%B2_%D0%9C%D1%83%D1%81%D0%BB%D1%96%D0%BC_%D0%9C%D0%B0%D0%B3%D0%BE%D0%BC%D0%B5%D1%82%D0%BE%D0%B2%D0%B8%D1%87",
                     "type": 0
                 }
+            },
+            {
+                "type": "street",
+                "oldName": "Абхазська",
+                "newName": "Ірпінська",
+                "link": {
+                    "href": "https://uk.wikipedia.org/wiki/%D0%86%D1%80%D0%BF%D1%96%D0%BD%D1%8C",
+                    "type": 2
+                }
+            },
+            {
+                "type": "street",
+                "oldName": "Білгородська",
+                "newName": "Наукових працівників"
             }
         ]
     },
@@ -1505,6 +1636,42 @@ const DATA = `
                 "link": {
                     "href": "https://uk.wikipedia.org/wiki/%D0%9C%D1%96%D1%85%D0%BD%D0%BE%D0%B2%D1%81%D1%8C%D0%BA%D0%B8%D0%B9_%D0%9C%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0_%D0%86%D0%B2%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%87",
                     "type": 0
+                }
+            },
+            {
+                "type": "street",
+                "oldName": "Саратівська",
+                "newName": "Новокаховська",
+                "link": {
+                    "href": "https://uk.wikipedia.org/wiki/%D0%9D%D0%BE%D0%B2%D0%B0_%D0%9A%D0%B0%D1%85%D0%BE%D0%B2%D0%BA%D0%B0",
+                    "type": 2
+                }
+            },
+            {
+                "type": "street",
+                "oldName": "Магаданська",
+                "newName": "Волонтерська",
+                "link": {
+                    "href": "https://uk.wikipedia.org/wiki/%D0%92%D0%BE%D0%BB%D0%BE%D0%BD%D1%82%D0%B5%D1%80%D1%81%D1%82%D0%B2%D0%BE",
+                    "type": 3
+                }
+            },
+            {
+                "type": "lane",
+                "oldName": "Московський",
+                "newName": "Азовсталі",
+                "link": {
+                    "href": "https://uk.wikipedia.org/wiki/%D0%90%D0%B7%D0%BE%D0%B2%D1%81%D1%82%D0%B0%D0%BB%D1%8C",
+                    "type": 2
+                }
+            },
+            {
+                "type": "street",
+                "oldName": "Пулковська",
+                "newName": "Дебальцівська",
+                "link": {
+                    "href": "https://uk.wikipedia.org/wiki/%D0%94%D0%B5%D0%B1%D0%B0%D0%BB%D1%8C%D1%86%D0%B5%D0%B2%D0%B5",
+                    "type": 2
                 }
             }
         ]
@@ -2091,6 +2258,47 @@ const DATA = `
                 "link": {
                     "href": "http://www.gorod.dp.ua/tema/persons/?pageid=790",
                     "type": 0
+                }
+            },
+            {
+                "type": "street",
+                "oldName": "Алтайська",
+                "newName": "Чечелівський"
+            },
+            {
+                "type": "lane",
+                "oldName": "Біломорський",
+                "newName": "Чорнобаївський",
+                "link": {
+                    "href": "https://uk.wikipedia.org/wiki/%D0%A7%D0%BE%D1%80%D0%BD%D0%BE%D0%B1%D0%B0%D1%97%D0%B2%D0%BA%D0%B0_(%D0%A5%D0%B5%D1%80%D1%81%D0%BE%D0%BD%D1%81%D1%8C%D0%BA%D0%B8%D0%B9_%D1%80%D0%B0%D0%B9%D0%BE%D0%BD)",
+                    "type": 2
+                }
+            },
+            {
+                "type": "street",
+                "oldName": "Кабардинська",
+                "newName": "Гостомельська",
+                "link": {
+                    "href": "https://uk.wikipedia.org/wiki/%D0%93%D0%BE%D1%81%D1%82%D0%BE%D0%BC%D0%B5%D0%BB%D1%8C",
+                    "type": 2
+                }
+            },
+            {
+                "type": "street",
+                "oldName": "Кронштадтська",
+                "newName": "Бородянська",
+                "link": {
+                    "href": "https://uk.wikipedia.org/wiki/%D0%91%D0%BE%D1%80%D0%BE%D0%B4%D1%8F%D0%BD%D0%BA%D0%B0",
+                    "type": 2
+                }
+            },
+            {
+                "type": "street",
+                "oldName": "Кронштадтська",
+                "newName": "Бородянська",
+                "link": {
+                    "href": "https://uk.wikipedia.org/wiki/%D0%91%D0%BE%D1%80%D0%BE%D0%B4%D1%8F%D0%BD%D0%BA%D0%B0",
+                    "type": 2
                 }
             }
         ]
@@ -2955,6 +3163,62 @@ const DATA = `
                     "href": "https://uk.wikipedia.org/wiki/%D0%A1%D0%B0%D0%BC%D0%BE%D0%B4%D1%80%D0%B8%D0%B3%D0%B0_%D0%92%D0%BE%D0%BB%D0%BE%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%92%D0%B0%D1%81%D0%B8%D0%BB%D1%8C%D0%BE%D0%B2%D0%B8%D1%87",
                     "type": 0
                 }
+            },
+            {
+                "type": "street",
+                "oldName": "Сахалінська",
+                "newName": "Бахмутська",
+                "link": {
+                    "href": "https://uk.wikipedia.org/wiki/%D0%91%D0%B0%D1%85%D0%BC%D1%83%D1%82",
+                    "type": 2
+                }
+            },
+            {
+                "type": "street",
+                "oldName": "Біломорська",
+                "newName": "Чорнобаївська",
+                "link": {
+                    "href": "https://uk.wikipedia.org/wiki/%D0%A7%D0%BE%D1%80%D0%BD%D0%BE%D0%B1%D0%B0%D1%97%D0%B2%D0%BA%D0%B0_(%D0%A5%D0%B5%D1%80%D1%81%D0%BE%D0%BD%D1%81%D1%8C%D0%BA%D0%B8%D0%B9_%D1%80%D0%B0%D0%B9%D0%BE%D0%BD)",
+                    "type": 2
+                }
+            },
+            {
+                "type": "street",
+                "oldName": "30-ї Іркутської дивізії",
+                "newName": "Українських воїнів"
+            },
+            {
+                "type": "street",
+                "oldName": "Алтайська",
+                "newName": "Чечелівська"
+            },
+            {
+                "type": "street",
+                "oldName": "Митищинська",
+                "newName": "Польська"
+            },
+            {
+                "type": "street",
+                "oldName": "Орська",
+                "newName": "Краматорська",
+                "link": {
+                    "href": "https://uk.wikipedia.org/wiki/%D0%9A%D1%80%D0%B0%D0%BC%D0%B0%D1%82%D0%BE%D1%80%D1%81%D1%8C%D0%BA",
+                    "type": 2
+                }
+            },
+            {
+                "type": "street",
+                "oldName": "Шушинська",
+                "newName": "Молочанська",
+                "link": {
+                    "href": "https://uk.wikipedia.org/wiki/%D0%9C%D0%BE%D0%BB%D0%BE%D1%87%D0%B0%D0%BD%D1%81%D1%8C%D0%BA",
+                    "type": 2
+                }
+            },
+            {
+                "type": "street",
+                "oldName": "Якутська",
+                "newName": "Високопільська"
             }
         ]
     },
@@ -3216,6 +3480,42 @@ const DATA = `
                 "type": "lane",
                 "oldName": "Червонопролетарський",
                 "newName": "Порічковий"
+            },
+            {
+                "type": "street",
+                "oldName": "Домодєдовська",
+                "newName": "Ворзельська",
+                "link": {
+                    "href": "https://uk.wikipedia.org/wiki/%D0%92%D0%BE%D1%80%D0%B7%D0%B5%D0%BB%D1%8C",
+                    "type": 2
+                }
+            },
+            {
+                "type": "street",
+                "oldName": "Магаданська",
+                "newName": "Волонтерська",
+                "link": {
+                    "href": "https://uk.wikipedia.org/wiki/%D0%92%D0%BE%D0%BB%D0%BE%D0%BD%D1%82%D0%B5%D1%80%D1%81%D1%82%D0%B2%D0%BE",
+                    "type": 3
+                }
+            },
+            {
+                "type": "street",
+                "oldName": "Псковська",
+                "newName": "Авдіївська",
+                "link": {
+                    "href": "https://uk.wikipedia.org/wiki/%D0%90%D0%B2%D0%B4%D1%96%D1%97%D0%B2%D0%BA%D0%B0",
+                    "type": 2
+                }
+            },
+            {
+                "type": "street",
+                "oldName": "Шереметьєвська",
+                "newName": "Бориспільська",
+                "link": {
+                    "href": "https://uk.wikipedia.org/wiki/%D0%91%D0%BE%D1%80%D0%B8%D1%81%D0%BF%D1%96%D0%BB%D1%8C",
+                    "type": 2
+                }
             }
         ]
     }
