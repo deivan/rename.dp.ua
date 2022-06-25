@@ -3319,6 +3319,21 @@ const DATA = `
                 "type": "street",
                 "oldName": "Сибірська",
                 "newName": "Старий Вал"
+            },
+            {
+                "type": "lane",
+                "oldName": "Ватутіна",
+                "newName": "Воздвіженський"
+            },
+            {
+                "type": "street",
+                "oldName": "Гвардійська",
+                "newName": "Посполіта"
+            },
+            {
+                "type": "street",
+                "oldName": "Костромська",
+                "newName": "Мамаєва Балка"
             }
         ]
     },
