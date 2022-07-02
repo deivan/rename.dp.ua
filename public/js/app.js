@@ -65,7 +65,7 @@ class RenameApp {
             htmlString += 
                 `<tr><td>${item.newName.toUpperCase()} / ${ALIASES.objectTypes[item.type]} ${item.oldName}</td>
                 <td class="secondColumn">${item.restored ? '<img src="assets/restore.png" title="відновлено історичну назву" />' : ''}&nbsp;
-                ${item.link ? `<a href="${item.link.href}">${ALIASES.personTypes[item.link.type]}</a>` : ''}</td></tr>`;
+                ${item.link ? `<a href="${item.link.href}" target="_blank">${ALIASES.personTypes[item.link.type]}</a>` : ''}</td></tr>`;
         });
         document.querySelector('#tableContent').innerHTML = htmlString;
     }
