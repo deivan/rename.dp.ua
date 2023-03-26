@@ -1,6 +1,6 @@
 const DATA = `
 {
-    "lastUpdate": "1670606696000",
+    "lastUpdate": "1679828335000",
     "r61": {
         "oldAreaName": "Амур-Нижньодніпровський",
         "newAreaName": "Амур-Нижньодніпровський",
@@ -803,6 +803,15 @@ const DATA = `
                 "type": "park",
                 "oldName": "Євгена Клочка",
                 "newName": "Максима Семенова"
+            },
+            {
+                "type": "lane",
+                "oldName": "Петрозаводський",
+                "newName": "Панфіла Сеся",
+                "link": {
+                    "href": "https://www.ukrainiansintheuk.info/ukr/02/ses-u.htm",
+                    "type": 0
+                }
             }
         ]
     },
@@ -1333,6 +1342,39 @@ const DATA = `
                 "type": "street",
                 "oldName": "Магнітогорська",
                 "newName": "Пасічна"
+            },
+            {
+                "type": "street",
+                "oldName": "Волгоградська",
+                "newName": "Чаплина Балка"
+            },
+            {
+                "type": "street",
+                "oldName": "Стасова",
+                "newName": "Антонівська"
+            },
+            {
+                "type": "lane",
+                "oldName": "Стасова",
+                "newName": "Антонівський"
+            },
+            {
+                "type": "street",
+                "oldName": "Сурикова",
+                "newName": "Соледарська",
+                "link": {
+                    "href": "https://uk.wikipedia.org/wiki/%D0%A1%D0%BE%D0%BB%D0%B5%D0%B4%D0%B0%D1%80",
+                    "type": 2
+                }
+            },
+            {
+                "type": "lane",
+                "oldName": "Сурикова",
+                "newName": "Соледарський",
+                "link": {
+                    "href": "https://uk.wikipedia.org/wiki/%D0%A1%D0%BE%D0%BB%D0%B5%D0%B4%D0%B0%D1%80",
+                    "type": 2
+                }
             }
         ]
     },
@@ -1818,6 +1860,42 @@ const DATA = `
                     "href": "https://uk.wikipedia.org/wiki/%D0%9A%D1%83%D0%BA%D1%83%D1%80%D0%B1%D0%B0_%D0%9E%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80_%D0%92%D0%B0%D1%81%D0%B8%D0%BB%D1%8C%D0%BE%D0%B2%D0%B8%D1%87",
                     "type": 0
                 }
+            },
+            {
+                "type": "street",
+                "oldName": "Василя Жуковського",
+                "newName": "Левка Лук'яненка",
+                "link": {
+                    "href": "https://uk.wikipedia.org/wiki/%D0%9B%D1%83%D0%BA%27%D1%8F%D0%BD%D0%B5%D0%BD%D0%BA%D0%BE_%D0%9B%D0%B5%D0%B2%D0%BA%D0%BE_%D0%93%D1%80%D0%B8%D0%B3%D0%BE%D1%80%D0%BE%D0%B2%D0%B8%D1%87",
+                    "type": 0
+                }
+            },
+            {
+                "type": "street",
+                "oldName": "Салтикова-Щедріна",
+                "newName": "Ганни Швидько",
+                "link": {
+                    "href": "https://uk.wikipedia.org/wiki/%D0%A8%D0%B2%D0%B8%D0%B4%D1%8C%D0%BA%D0%BE_%D0%93%D0%B0%D0%BD%D0%BD%D0%B0_%D0%9A%D0%B8%D1%80%D0%B8%D0%BB%D1%96%D0%B2%D0%BD%D0%B0",
+                    "type": 0
+                }
+            },
+            {
+                "type": "street",
+                "oldName": "Сташкова",
+                "newName": "Андрія Шептицького",
+                "link": {
+                    "href": "https://uk.wikipedia.org/wiki/%D0%90%D0%BD%D0%B4%D1%80%D0%B5%D0%B9_(%D0%A8%D0%B5%D0%BF%D1%82%D0%B8%D1%86%D1%8C%D0%BA%D0%B8%D0%B9)",
+                    "type": 0
+                }
+            },
+            {
+                "type": "street",
+                "oldName": "Тихвінська",
+                "newName": "Любомира Гузара",
+                "link": {
+                    "href": "https://uk.wikipedia.org/wiki/%D0%9B%D1%8E%D0%B1%D0%BE%D0%BC%D0%B8%D1%80_(%D0%93%D1%83%D0%B7%D0%B0%D1%80)",
+                    "type": 0
+                }
             }
         ]
     },
@@ -2023,6 +2101,21 @@ const DATA = `
                 "type": "street",
                 "oldName": "Тверська",
                 "newName": "Яскрава"
+            },
+            {
+                "type": "street",
+                "oldName": "Амурська",
+                "newName": "Червоної Рути"
+            },
+            {
+                "type": "street",
+                "oldName": "Ашхабадська",
+                "newName": "Червоної Калини"
+            },
+            {
+                "type": "street",
+                "oldName": "Сакко",
+                "newName": "Торська"
             }
         ]
     },
@@ -2377,6 +2470,11 @@ const DATA = `
                     "href": "https://uk.wikipedia.org/wiki/%D0%9B%D0%B5%D1%81%D1%8F_%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%BA%D0%B0",
                     "type": 0
                 }
+            },
+            {
+                "type": "street",
+                "oldName": "Ушакова",
+                "newName": "Бериславська"
             }
         ]
     },
@@ -2784,6 +2882,33 @@ const DATA = `
                 "link": {
                     "href": "https://uk.wikipedia.org/wiki/%D0%90%D1%80%D0%B0%D0%B1%D0%B0%D1%82",
                     "type": 2
+                }
+            },
+            {
+                "type": "street",
+                "oldName": "Громова",
+                "newName": "Дмитра Скоробогатова",
+                "link": {
+                    "href": "https://uk.wikipedia.org/wiki/%D0%A1%D0%BA%D0%BE%D1%80%D0%BE%D0%B1%D0%BE%D0%B3%D0%B0%D1%82%D0%BE%D0%B2_%D0%94%D0%BC%D0%B8%D1%82%D1%80%D0%BE_%D0%A1%D1%82%D0%B5%D0%BF%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%87",
+                    "type": 0
+                }
+            },
+            {
+                "type": "lane",
+                "oldName": "Громова",
+                "newName": "Дмитра Скоробогатова",
+                "link": {
+                    "href": "https://uk.wikipedia.org/wiki/%D0%A1%D0%BA%D0%BE%D1%80%D0%BE%D0%B1%D0%BE%D0%B3%D0%B0%D1%82%D0%BE%D0%B2_%D0%94%D0%BC%D0%B8%D1%82%D1%80%D0%BE_%D0%A1%D1%82%D0%B5%D0%BF%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%87",
+                    "type": 0
+                }
+            },
+            {
+                "type": "street",
+                "oldName": "Казанська",
+                "newName": "Григора Лусаворича",
+                "link": {
+                    "href": "https://uk.wikipedia.org/wiki/%D0%93%D1%80%D0%B8%D0%B3%D0%BE%D1%80%D1%96%D0%B9_%D0%9F%D1%80%D0%BE%D1%81%D0%B2%D1%96%D1%82%D0%B8%D1%82%D0%B5%D0%BB%D1%8C",
+                    "type": 0
                 }
             }
         ]
@@ -3800,6 +3925,49 @@ const DATA = `
                 "type": "lane",
                 "oldName": "Юдіна",
                 "newName": "Танцюрина Балка"
+            },
+            {
+                "type": "street",
+                "oldName": "8 Березня",
+                "newName": "Роблена"
+            },
+            {
+                "type": "lane",
+                "oldName": "8 Березня",
+                "newName": "Роблений"
+            },
+            {
+                "type": "street",
+                "oldName": "Адмірала Макарова",
+                "newName": "Зимівницька"
+            },
+            {
+                "type": "street",
+                "oldName": "Валдайська",
+                "newName": "Вільнюська",
+                "link": {
+                    "href": "https://uk.wikipedia.org/wiki/%D0%92%D1%96%D0%BB%D1%8C%D0%BD%D1%8E%D1%81",
+                    "type": 2
+                }
+            },
+            {
+                "type": "lane",
+                "oldName": "Валдайська",
+                "newName": "Вільнюський",
+                "link": {
+                    "href": "https://uk.wikipedia.org/wiki/%D0%92%D1%96%D0%BB%D1%8C%D0%BD%D1%8E%D1%81",
+                    "type": 2
+                }
+            },
+            {
+                "type": "street",
+                "oldName": "Талаліхіні",
+                "newName": "Коржева"
+            },
+            {
+                "type": "street",
+                "oldName": "Шишкіна",
+                "newName": "Незамаївська"
             }
         ]
     },
@@ -4151,6 +4319,20 @@ const DATA = `
                 "type": "street",
                 "oldName": "Новгородська",
                 "newName": "Хутірська"
+            },
+            {
+                "type": "street",
+                "oldName": "Адмірала Макарова",
+                "newName": "Уходницька"
+            },
+            {
+                "type": "street",
+                "oldName": "Станіславського",
+                "newName": "Самійла Зборовського",
+                "link": {
+                    "href": "https://uk.wikipedia.org/wiki/%D0%A1%D0%B0%D0%BC%D1%96%D0%B9%D0%BB%D0%BE_%D0%97%D0%B1%D0%BE%D1%80%D0%BE%D0%B2%D1%81%D1%8C%D0%BA%D0%B8%D0%B9",
+                    "type": 0
+                }
             }
         ]
     }
