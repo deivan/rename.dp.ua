@@ -47,7 +47,6 @@ class RenameApp {
     }
 
     initDataTable() {
-        console.log(this.data, this.area)
         document.querySelector('#newAreaName').innerText = this.data[this.area].newAreaName;
         if (this.data[this.area].newAreaName !== this.data[this.area].oldAreaName) {
             document.querySelector('#oldAreaName').innerText = `(${this.data[this.area].oldAreaName})`;
