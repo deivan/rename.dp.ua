@@ -18,6 +18,12 @@ class RenameApp {
         const navBar = document.querySelector('#navBar');
         const donate = document.createElement('DIV');
         let menuContent = '';
+        let areasKeys = ['r61','r62','r63','r64','r65','r66','r67','r68']
+        let total = 0;
+        
+        areasKeys.forEach(item => {
+            total += this.data[item].objects.length;
+        });
 
         if (!navBar) return;
 
@@ -28,6 +34,7 @@ class RenameApp {
                 </li>
             `;
         });
+        menuContent += `<li class="list-group-item">Усього перейменувань у базі: <strong>${total}</strong></li>`;
 
         donate.classList.add('donation');
         donate.innerHTML = `
