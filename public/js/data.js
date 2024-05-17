@@ -5336,7 +5336,7 @@ const DATA = `
             {
                 "type": "street",
                 "oldName": "Висоцького",
-                "newName": "Старих каменів"
+                "newName": "Старих Каменів"
             },
             {
                 "type": "street",
