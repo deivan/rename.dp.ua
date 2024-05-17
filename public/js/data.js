@@ -1154,6 +1154,11 @@ const DATA = `
                 "type": "street",
                 "oldName": "Углицька",
                 "newName": "Староукраїнська"
+            },
+            {
+                "type": "street",
+                "oldName": "Арбузова",
+                "newName": "Васюринська"
             }
         ]
     },
@@ -5322,6 +5327,11 @@ const DATA = `
                 "type": "street",
                 "oldName": "Уссурійська",
                 "newName": "Щербаківська"
+            },
+            {
+                "type": "street",
+                "oldName": "Академіка Кисловодського",
+                "newName": "Роберта Конквеста"
             }
         ]
     },
