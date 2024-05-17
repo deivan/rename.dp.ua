@@ -3372,8 +3372,8 @@ const DATA = `
         "objects": [
             {
                 "type": "street",
-                "oldName": "Бабушкіна",
-                "newName": "Романа Шухевича",
+                "oldName": "Малахова",
+                "newName": "Попів Яр",
                 "link": {
                     "href": "https://uk.wikipedia.org/wiki/%D0%A8%D1%83%D1%85%D0%B5%D0%B2%D0%B8%D1%87_%D0%A0%D0%BE%D0%BC%D0%B0%D0%BD_%D0%9E%D1%81%D0%B8%D0%BF%D0%BE%D0%B2%D0%B8%D1%87",
                     "type": 0
@@ -3381,14 +3381,14 @@ const DATA = `
             },
             {
                 "type": "street",
-                "oldName": "Балка колгоспна",
-                "newName": "Балка мальовнича"
+                "oldName": "Маршала Судця",
+                "newName": "Миколи Різоля"
             },
             {
                 "type": "lane",
                 "newType": "street",
-                "oldName": "Більшовицький",
-                "newName": "Холодноярська",
+                "oldName": "Маршала Тимошенка",
+                "newName": "Міуська",
                 "link": {
                     "href": "https://uk.wikipedia.org/wiki/%D0%A5%D0%BE%D0%BB%D0%BE%D0%B4%D0%BD%D0%B8%D0%B9_%D0%AF%D1%80",
                     "type": 2
@@ -3396,8 +3396,8 @@ const DATA = `
             },
             {
                 "type": "street",
-                "oldName": "Братів Міллер",
-                "newName": "Леоніда Жебуньова",
+                "oldName": "Менделеєва",
+                "newName": "Ічкерійська",
                 "link": {
                     "href": "https://uk.wikipedia.org/wiki/%D0%96%D0%B5%D0%B1%D1%83%D0%BD%D1%8C%D0%BE%D0%B2_%D0%9B%D0%B5%D0%BE%D0%BD%D1%96%D0%B4_%D0%9C%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B9%D0%BE%D0%B2%D0%B8%D1%87",
                     "type": 0
@@ -3405,8 +3405,8 @@ const DATA = `
             },
             {
                 "type": "street",
-                "oldName": "Булигіна",
-                "newName": "Івана Езау",
+                "oldName": "Минакова",
+                "newName": "Яланецька",
                 "link": {
                     "href": "https://uk.wikipedia.org/wiki/%D0%95%D0%B7%D0%B0%D1%83_%D0%86%D0%B2%D0%B0%D0%BD_%D0%AF%D0%BA%D0%BE%D0%B2%D0%B8%D1%87",
                     "type": 0
