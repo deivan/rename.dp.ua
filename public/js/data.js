@@ -2001,6 +2001,11 @@ const DATA = `
                     "href": "https://uk.wikipedia.org/wiki/%D0%A4%D1%80%D0%B8%D0%B4%D0%B5%D1%80%D0%B8%D0%BA_%D0%A8%D0%BE%D0%BF%D0%B5%D0%BD",
                     "type": 0
                 }
+            },
+            {
+                "type": "street",
+                "oldName": "Блока",
+                "newName": "Вечірня"
             }
         ]
     },
@@ -3975,6 +3980,11 @@ const DATA = `
                 "type": "street",
                 "oldName": "Ставропольська",
                 "newName": "Старостепова"
+            },
+            {
+                "type": "street",
+                "oldName": "Братів Бестужевих",
+                "newName": "Старофабрична"
             }
         ]
     },
@@ -5340,6 +5350,20 @@ const DATA = `
             },
             {
                 "type": "street",
+                "oldName": "Болятка",
+                "newName": "Каскадна"
+            },
+            {
+                "type": "lane",
+                "oldName": "Боткінський",
+                "newName": "Мисливський"
+            },
+            {
+                "type": "street",
+                "oldName": "Брюллова",
+                "newName": "Михайла Бойчука"
+            },
+            {
                 "oldName": "Академіка Кисловодського",
                 "newName": "Роберта Конквеста"
             },
