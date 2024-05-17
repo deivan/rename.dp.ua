@@ -1154,6 +1154,11 @@ const DATA = `
                 "type": "street",
                 "oldName": "Углицька",
                 "newName": "Староукраїнська"
+            },
+            {
+                "type": "street",
+                "oldName": "Бутлерова",
+                "newName": "Миколи Аркаса"
             }
         ]
     },
@@ -2627,7 +2632,12 @@ const DATA = `
                 "type": "lane",
                 "oldName": "Камський",
                 "newName": "Дідів"
-            }
+            },
+            {
+                "type": "street",
+                "oldName": "Воїнової",
+                "newName": "Миколи Гвоздя"
+            } 
         ]
     },
     "r64": {
@@ -5322,6 +5332,16 @@ const DATA = `
                 "type": "street",
                 "oldName": "Уссурійська",
                 "newName": "Щербаківська"
+            },
+            {
+                "type": "street",
+                "oldName": "Висоцького",
+                "newName": "Старих каменів"
+            },
+            {
+                "type": "street",
+                "oldName": "Вільямса",
+                "newName": "Павла Тушкана"
             }
         ]
     },
@@ -5879,6 +5899,11 @@ const DATA = `
                 "oldName": "Нагатинська",
                 "newName": "Археологічна"
             },
+            {
+                "type": "street",
+                "oldName": "Вознюка",
+                "newName": "Василя Грунтенка"
+            }
             {
                 "type": "street",
                 "oldName": "Немировича-Данченка",
