@@ -1157,6 +1157,11 @@ const DATA = `
             },
             {
                 "type": "street",
+                "oldName": "Арбузова",
+                "newName": "Васюринська"
+            },
+            {
+                "type": "street",
                 "oldName": "Бутлерова",
                 "newName": "Миколи Аркаса"
             }
@@ -5335,6 +5340,10 @@ const DATA = `
             },
             {
                 "type": "street",
+                "oldName": "Академіка Кисловодського",
+                "newName": "Роберта Конквеста"
+            },
+            {
                 "oldName": "Висоцького",
                 "newName": "Старих каменів"
             },
