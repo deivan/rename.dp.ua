@@ -1,6 +1,6 @@
 const DATA = `
 {
-    "lastUpdate": "1717353661151",
+    "lastUpdate": "1717353677000",
     "r61": {
         "oldAreaName": "Амур-Нижньодніпровський",
         "newAreaName": "Амур-Нижньодніпровський",
@@ -1347,6 +1347,11 @@ const DATA = `
                 "type": "lane",
                 "oldName": "Чернишевського",
                 "newName": "Забазарний"
+            },
+            {
+                "type": "street",
+                "oldName": "Минусинська",
+                "newName": "Віктора Сулими"
             }
         ]
     },
@@ -2218,6 +2223,15 @@ const DATA = `
                     "href": "https://uk.wikipedia.org/wiki/%D0%9E%D0%BC%D0%B5%D0%BB%D1%8F%D0%BD_%D0%9F%D1%80%D1%96%D1%86%D0%B0%D0%BA",
                     "type": 0
                 }
+            },
+            {
+                "type": "street",
+                "oldName": "Говорова",
+                "newName": "Петра Розумного",
+                "link": {
+                    "href": "https://uk.wikipedia.org/wiki/%D0%A0%D0%BE%D0%B7%D1%83%D0%BC%D0%BD%D0%B8%D0%B9_%D0%9F%D0%B5%D1%82%D1%80%D0%BE_%D0%9F%D0%B0%D0%B2%D0%BB%D0%BE%D0%B2%D0%B8%D1%87",
+                    "type": 0
+                }
             }
         ]
     },
@@ -2942,6 +2956,11 @@ const DATA = `
                     "href": "https://uk.wikipedia.org/wiki/%D0%92%D0%BE%D1%80%D0%BE%D0%BD%D0%B8%D0%B9_%D0%9C%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0_%D0%9A%D1%96%D0%BD%D0%B4%D1%80%D0%B0%D1%82%D0%BE%D0%B2%D0%B8%D1%87",
                     "type": 0
                 }
+            },
+            {
+                "type": "street",
+                "oldName": "Писарева",
+                "newName": "Всесвіту"
             }
         ]
     },
@@ -3738,6 +3757,11 @@ const DATA = `
                 "type": "street",
                 "oldName": "Титова",
                 "newName": "Незалежності"
+            },
+            {
+                "type": "street",
+                "oldName": "Гавриленка",
+                "newName": "Лікаря Ребініна"
             }
         ]
     },
@@ -5947,6 +5971,21 @@ const DATA = `
                 "type": "street",
                 "oldName": "Шмідта",
                 "newName": "Ліскуватий Яр"
+            },
+            {
+                "type": "lane",
+                "oldName": "Гребьонкіна",
+                "newName": "Радний"
+            },
+            {
+                "type": "street",
+                "oldName": "Кам'яногорська",
+                "newName": "Андріївська"
+            },
+            {
+                "type": "street",
+                "oldName": "Писемського",
+                "newName": "Родини Ульманів"
             }
         ]
     },
@@ -6600,6 +6639,11 @@ const DATA = `
                     "href": "https://shron1.chtyvo.org.ua/Ischuk_Oleksandr/Zhyttia_ta_dolia_Uliany_Kriuchenko.pdf",
                     "type": 0
                 }
+            },
+            {
+                "type": "street",
+                "oldName": "Кокчетавська",
+                "newName": "Пікетна"
             }
         ]
     }
