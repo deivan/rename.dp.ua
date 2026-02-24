@@ -5369,7 +5369,7 @@ const DATA = `
             },
             {
                 "oldName": "Висоцького",
-                "newName": "Старих каменів"
+                "newName": "Старих Каменів"
             },
             {
                 "type": "street",
