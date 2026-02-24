@@ -14,6 +14,8 @@ const ALIASES = {
     area: 'житломасив',
     lake: 'затока',
     island: 'острів',
-    station: 'станція'
+    station: 'станція',
+    boulevard: 'бульвар',
+    area: 'район'
   }
 }
