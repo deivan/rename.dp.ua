@@ -1,6 +1,6 @@
 const DATA = `
 {
-    "lastUpdate": "1717353677000",
+    "lastUpdate": "1771960163000",
     "r61": {
         "oldAreaName": "Амур-Нижньодніпровський",
         "newAreaName": "Амур-Нижньодніпровський",
@@ -1352,6 +1352,32 @@ const DATA = `
                 "type": "street",
                 "oldName": "Минусинська",
                 "newName": "Віктора Сулими"
+            },
+            {
+                "type": "street",
+                "oldName": "Адмірала Білинського",
+                "newName": "Каспійська"
+            },
+            {
+                "type": "lane",
+                "oldName": "Євгена Тимченка",
+                "newName": "Арсенальний"
+            },
+            {
+                "type": "park",
+                "oldName": "Задніпровський",
+                "newName": "Амурський парк"
+            }
+            ,
+            {
+                "type": "area",
+                "oldName": "Ніжньодніпровський",
+                "newName": "Амур-Ніжньодніпровський"
+            },
+            {
+                "type": "street",
+                "oldName": "Юрія Горліса-Горського",
+                "newName": "Арсенальна"
             }
         ]
     },
@@ -2232,6 +2258,21 @@ const DATA = `
                     "href": "https://uk.wikipedia.org/wiki/%D0%A0%D0%BE%D0%B7%D1%83%D0%BC%D0%BD%D0%B8%D0%B9_%D0%9F%D0%B5%D1%82%D1%80%D0%BE_%D0%9F%D0%B0%D0%B2%D0%BB%D0%BE%D0%B2%D0%B8%D1%87",
                     "type": 0
                 }
+            },
+            {
+                "type": "boulevard",
+                "oldName": "Королеви Анни",
+                "newName": "Платонова"
+            },
+            {
+                "type": "street",
+                "oldName": "Первозванівська",
+                "newName": "Короленка"
+            },
+            {
+                "type": "street",
+                "oldName": "Південна",
+                "newName": "Української Добровольчої Армії"
             }
         ]
     },
@@ -2961,6 +3002,16 @@ const DATA = `
                 "type": "street",
                 "oldName": "Писарева",
                 "newName": "Всесвіту"
+            },
+            {
+                "type": "park",
+                "oldName": "Соборний",
+                "newName": "Івана Старова"
+            },
+            {
+                "type": "street",
+                "oldName": "Південна",
+                "newName": "Української Добровольчої Армії"
             }
         ]
     },
@@ -3762,6 +3813,11 @@ const DATA = `
                 "type": "street",
                 "oldName": "Гавриленка",
                 "newName": "Лікаря Ребініна"
+            },
+            {
+                "type": "street",
+                "oldName": "Первозванівська",
+                "newName": "Короленка"
             }
         ]
     },
@@ -4438,6 +4494,16 @@ const DATA = `
                     "href": "https://uk.wikipedia.org/wiki/%D0%9B%D0%BE%D0%B3%D1%83%D1%88_%D0%9E%D0%BC%D0%B5%D0%BB%D1%8F%D0%BD_%D0%86%D0%B2%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%87",
                     "type": 0
                 }
+            },
+            {
+                "type": "street",
+                "oldName": "Василя Шкляра",
+                "newName": "Архитектора Богданова"
+            },
+            {
+                "type": "street",
+                "oldName": "Михайла Медведя",
+                "newName": "Співдружності"
             }
         ]
     },
@@ -5986,6 +6052,61 @@ const DATA = `
                 "type": "street",
                 "oldName": "Писемського",
                 "newName": "Родини Ульманів"
+            },
+            {
+                "type": "street",
+                "oldName": "Артема Веделя",
+                "newName": "Братська"
+            },
+            {
+                "type": "street",
+                "oldName": "Генерала Удовиченка",
+                "newName": "Волівачів"
+            },
+            {
+                "type": "street",
+                "oldName": "Івана Кобзи",
+                "newName": "Білореченська"
+            },
+            {
+                "type": "lane",
+                "oldName": "Миколи Пимоненка",
+                "newName": "Братський"
+            },
+            {
+                "type": "street",
+                "oldName": "Модеста Менцинського",
+                "newName": "Приморська"
+            },
+            {
+                "type": "street",
+                "oldName": "Олександра Мишуги",
+                "newName": "Шаляпіна"
+            },
+            {
+                "type": "lane",
+                "oldName": "Самійла Кішки",
+                "newName": "Короленка"
+            },
+            {
+                "type": "lane",
+                "oldName": "Тараса Трясила",
+                "newName": "Кибальчича"
+            },
+            {
+                "type": "street",
+                "oldName": "Трифона Гладченка (частина)",
+                "newName": "Трифона Гладченка, провулок"
+            },
+            {
+                "type": "lane",
+                "oldName": "Міцкевича",
+                "newName": "Добровольця Сім'янина"
+            },
+            {
+                "type": "street",
+                "oldName": "Андріївська",
+                "newName": "Духмяна"
             }
         ]
     },
@@ -6644,6 +6765,16 @@ const DATA = `
                 "type": "street",
                 "oldName": "Кокчетавська",
                 "newName": "Пікетна"
+            },
+            {
+                "type": "street",
+                "oldName": "Докії Гуменної",
+                "newName": "Пікетна"
+            },
+            {
+                "type": "street",
+                "oldName": "Кирила Осьмака",
+                "newName": "20-річчя Перемоги"
             }
         ]
     }
